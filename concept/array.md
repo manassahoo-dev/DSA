@@ -20,6 +20,6 @@ p5 = a0 + a1 + a2 + a3 + a4 + a5
 
 Q) Say we need to sum get sum of all elements from indices 
 [2 to 5] => [a2 + a3 + a4 + a5]		or	[p5 - p1] 
-[1 to 4] => [a1 + a2 + a3 + a4] 	   	or	[p4 - p1]
+[1 to 4] => [a1 + a2 + a3 + a4] 	or	[p4 - p1]
 [0 to 4] => [a0 + a1 + a2 + a3 + a4] 	or 	[p4]
 ```
