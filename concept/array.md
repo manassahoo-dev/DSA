@@ -23,3 +23,6 @@ Q) Say we need to sum get sum of all elements from indices
 [1 to 4] => [a1 + a2 + a3 + a4] 	or	[p4 - p1]
 [0 to 4] => [a0 + a1 + a2 + a3 + a4] 	or 	[p4]
 ```
+**Prefix Sum Formula**
+**Range Sum Query**
+**In-place Prefix Sum**
