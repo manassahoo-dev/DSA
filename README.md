@@ -1,3 +1,3 @@
 # DSA
-DSA Concepts
+- DSA Concepts
 - leetcode
