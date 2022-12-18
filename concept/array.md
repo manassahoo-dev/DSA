@@ -26,3 +26,7 @@ Q) Say we need to sum get sum of all elements from indices
 - **Prefix Sum Formula**
 - **Range Sum Query**
 - **In-place Prefix Sum**
+
+
+Suffix Sum
+Contribution Technique
