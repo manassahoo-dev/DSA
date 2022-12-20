@@ -30,3 +30,8 @@ Q) Say we need to sum get sum of all elements from indices
 
 Suffix Sum
 Contribution Technique
+
+| Problem      | Leetcode |
+| ----------- | ----------- |
+| Set Matrix Zeroes      | [Title](https://leetcode.com/problems/set-matrix-zeroes/)       |
+| Paragraph   | Text        |
