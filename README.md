@@ -35,3 +35,12 @@ Youtube Channels for Interview Preparation
 🎥 Chirag Goel - https://lnkd.in/gf-MZRyP
 🎥 RoadsideCoder - https://lnkd.in/g-DrYUwS
 🎥 Uncommon Geeks - https://lnkd.in/guY8DdvZ
+
+Platforms to solve coding challenges
+
+🚉 Big Frontend Dev - https://bigfrontend.dev/
+🚉 Frontend Mentor - https://lnkd.in/gxqWe7Ru
+🚉 JS Challenger - https://lnkd.in/giED9wNC
+🚉 Great Frontend Dev - https://lnkd.in/g6hcn6FJ
+🚉 Devtools Tech - https://lnkd.in/g62Q2D_Q
+🚉 Learners Bucket - https://lnkd.in/g6RqJJ7Q
