@@ -8,13 +8,13 @@ https://quickref.me/
 __Youtube Channels for learning__
 
 - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
-- Clever Programmer - https://lnkd.in/gXng7wxc
-- Net Ninja - https://lnkd.in/gE6QqjFW
-- Web Dev Simplified - https://lnkd.in/gsdTQUCh
-- Academind - https://lnkd.in/g-8pEbxP
-- Dev Ed - https://lnkd.in/g6A4__zE
-- Kevin Powell - https://lnkd.in/gdysp7pU
-- Codevolution - https://lnkd.in/gTBZW4XS
+- [Clever Programmer](https://www.youtube.com/c/CleverProgrammer)
+- [Net Ninja](https://www.youtube.com/c/TheNetNinja)
+- [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
+- [Academind](https://www.youtube.com/c/Academind)
+- [Dev Ed](https://www.youtube.com/@developedbyed)
+- [Kevin Powell](https://www.youtube.com/kepowob)
+- [Codevolution](https://www.youtube.com/c/Codevolution)
 
 __Repos for Interview Preparation__
 
