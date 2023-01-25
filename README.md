@@ -7,7 +7,7 @@ https://quickref.me/
 
 __Youtube Channels for learning__
 
-- [Traversy Media]: https://www.youtube.com/c/TraversyMedia
+- [Traversy Media](https://www.youtube.com/c/TraversyMedia)
 - Clever Programmer - https://lnkd.in/gXng7wxc
 - Net Ninja - https://lnkd.in/gE6QqjFW
 - Web Dev Simplified - https://lnkd.in/gsdTQUCh
