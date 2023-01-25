@@ -5,7 +5,7 @@
 
 https://quickref.me/
 
-Youtube Channels for learning
+__Youtube Channels for learning__
 
 - Traversy Media - https://lnkd.in/gJ8QTCMe
 - Clever Programmer - https://lnkd.in/gXng7wxc
@@ -16,7 +16,7 @@ Youtube Channels for learning
 - Kevin Powell - https://lnkd.in/gdysp7pU
 - Codevolution - https://lnkd.in/gTBZW4XS
 
-Repos for Interview Preparation
+__Repos for Interview Preparation__
 
 - Front End Interview Handbook - https://lnkd.in/gdM3y45V
 - JavaScript Interview Questions - https://lnkd.in/gmR36jc7
