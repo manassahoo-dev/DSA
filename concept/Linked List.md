@@ -6,7 +6,7 @@ Given the `head` of a singly linked list, return the middle node of the linked l
 If there are two middle nodes, return the second middle node.
 
 _solution_
-==Each time, `slow` go 1 step while `fast` go 2 steps.==
+Each time, `slow` go 1 step while `fast` go 2 steps.
 When `fast` arrives at the end, `slow` will arrive right in the middle.
 
 ```java
