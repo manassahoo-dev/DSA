@@ -5,7 +5,7 @@ __876. Middle of the Linked List__
 Given the `head` of a singly linked list, return the middle node of the linked list.
 If there are two middle nodes, return the second middle node.
 
-__Approach__
+### Approach
 Each time, `slow` go 1 step while `fast` go 2 steps.
 When `fast` arrives at the end, `slow` will arrive right in the middle.
 
