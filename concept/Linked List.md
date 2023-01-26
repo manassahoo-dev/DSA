@@ -10,6 +10,8 @@ __Approach__
 Each time, `slow` go 1 step while `fast` go 2 steps.
 When `fast` arrives at the end, `slow` will arrive right in the middle.
 
+__Java__
+
 ```java
 public ListNode middleNode(ListNode head) {
         ListNode slow = head, fast = head;
@@ -20,3 +22,14 @@ public ListNode middleNode(ListNode head) {
         return slow;
 }
 ```    
+__JavaScript__
+```javascript
+var middleNode = function(head) {
+    let fast = slow = head;
+    while (fast && fast.next) {
+        fast = fast.next.next;
+        slow = slow.next;
+    }
+    return slow;
+};
+```
