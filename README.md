@@ -29,12 +29,12 @@ __Repos for Interview Preparation__
 
 Youtube Channels for Interview Preparation
 
-🎥 Namaste JavaScript - https://lnkd.in/gh2-zfhk
-🎥 Devtools Tech Frontend Interview Series - https://lnkd.in/gDQQHXpy
-🎥 Front-End Engineer - https://lnkd.in/gDbKYqBH
-🎥 Chirag Goel - https://lnkd.in/gf-MZRyP
-🎥 RoadsideCoder - https://lnkd.in/g-DrYUwS
-🎥 Uncommon Geeks - https://lnkd.in/guY8DdvZ
+- Namaste JavaScript - https://lnkd.in/gh2-zfhk
+- Devtools Tech Frontend Interview Series - https://lnkd.in/gDQQHXpy
+- Front-End Engineer - https://lnkd.in/gDbKYqBH
+- Chirag Goel - https://lnkd.in/gf-MZRyP
+- RoadsideCoder - https://lnkd.in/g-DrYUwS
+- Uncommon Geeks - https://lnkd.in/guY8DdvZ
 
 Platforms to solve coding challenges
 
