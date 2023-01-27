@@ -18,16 +18,15 @@ __Youtube Channels for learning__
 
 __Repos for Interview Preparation__
 
-- Front End Interview Handbook - https://lnkd.in/gdM3y45V
-- JavaScript Interview Questions - https://lnkd.in/gmR36jc7
-- JavaScript Code Challenges - https://lnkd.in/gFtMnp5
-- React Interview Questions - https://lnkd.in/g_CRt4CP
-- Tech Interview Handbook - https://lnkd.in/g5VZFe-v
-- JavaScript Questions MCQ - https://lnkd.in/gke3i8g
-- FreeCodeCamp Interview Prep - https://lnkd.in/gfyh9mRn
+- [Front End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook)
+- [JavaScript Interview Questions](https://github.com/sudheerj/javascript-interview-questions)
+- [JavaScript Code Challenges](https://github.com/sadanandpai/javascript-code-challenges)
+- [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions)
+- [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)
+- [JavaScript Questions](https://github.com/lydiahallie/javascript-questions)
+- [FreeCodeCamp Interview Prep](https://github.com/freeCodeCamp/freeCodeCamp/tree/main/curriculum/challenges/english/10-coding-interview-prep)
 
-
-Youtube Channels for Interview Preparation
+__Youtube Channels for Interview Preparation__
 
 - Namaste JavaScript - https://lnkd.in/gh2-zfhk
 - Devtools Tech Frontend Interview Series - https://lnkd.in/gDQQHXpy
