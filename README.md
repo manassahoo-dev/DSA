@@ -44,9 +44,9 @@ __Youtube Channels for Interview Preparation__
 
 Platforms to solve coding challenges
 
-🚉 Big Frontend Dev - https://bigfrontend.dev/
-🚉 Frontend Mentor - https://lnkd.in/gxqWe7Ru
-🚉 JS Challenger - https://lnkd.in/giED9wNC
-🚉 Great Frontend Dev - https://lnkd.in/g6hcn6FJ
-🚉 Devtools Tech - https://lnkd.in/g62Q2D_Q
-🚉 Learners Bucket - https://lnkd.in/g6RqJJ7Q
+. [Big Frontend Dev](https://bigfrontend.dev)
+. [Frontend Mentor](https://www.frontendmentor.io)
+. [JS Challenger](https://www.jschallenger.com)
+. [Great Frontend Dev](https://www.greatfrontend.com)
+. [Devtools Tech](https://www.devtools.tech)
+. [Learners Bucket](https://learnersbucket.com)
