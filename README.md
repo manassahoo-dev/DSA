@@ -35,12 +35,12 @@ __Repos for Interview Preparation__
 
 __Youtube Channels for Interview Preparation__
 
-- Namaste JavaScript - https://lnkd.in/gh2-zfhk
-- Devtools Tech Frontend Interview Series - https://lnkd.in/gDQQHXpy
-- Front-End Engineer - https://lnkd.in/gDbKYqBH
-- Chirag Goel - https://lnkd.in/gf-MZRyP
-- RoadsideCoder - https://lnkd.in/g-DrYUwS
-- Uncommon Geeks - https://lnkd.in/guY8DdvZ
+- [Namaste JavaScript](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
+- [Frontend Interview Questions](https://www.youtube.com/playlist?list=PL4ruoTJ8LTT96O258zzjRwdiNxzDoas-G)
+- [FrontEndEngineer](https://www.youtube.com/c/FrontEndEngineer)
+- [Chirag Goel](https://www.youtube.com/c/engineerchirag)
+- [RoadsideCoder](https://www.youtube.com/@RoadsideCoder)
+- [Front end developer interview using JavaScript -Uncommon Geeks](https://www.youtube.com/playlist?list=PLmcRO0ZwQv4QMslGJQg7N8AzaHkC5pJ4t)
 
 Platforms to solve coding challenges
 
