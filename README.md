@@ -12,9 +12,16 @@ __Youtube Channels for learning__
 - [Net Ninja](https://www.youtube.com/c/TheNetNinja)
 - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
 - [Academind](https://www.youtube.com/c/Academind)
-- [Dev Ed](https://www.youtube.com/@developedbyed)
 - [Kevin Powell](https://www.youtube.com/kepowob)
 - [Codevolution](https://www.youtube.com/c/Codevolution)
+- [freeCodeCamp.org](https://www.youtube.com/c/Freecodecamp)
+- [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh)
+- [codeSTACKr](https://www.youtube.com/c/codeSTACKr)
+- [Code with Ania Kubów](https://www.youtube.com/c/AniaKub%C3%B3w)
+- [JavaScriptMastery](https://www.youtube.com/c/JavaScriptMastery)
+- [developedbyed](https://www.youtube.com/@developedbyed)
+- [Online Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers)
+- [Coder Coder](https://www.youtube.com/c/TheCoderCoder)
 
 __Repos for Interview Preparation__
 
