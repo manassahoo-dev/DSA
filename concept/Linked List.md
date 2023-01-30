@@ -2,19 +2,19 @@
 
 
 ## Must-Do LinkedList Problems on Leetcode
-Add Two Numbers
-Remove Nth Node From End of List
-Merge Two Sorted Lists
-Merge K Sorted Lists
-Reorder List
-Swap Nodes In Pairs
-Partition Lists
-Reverse a Linked List II
-Convert Sorted List to Binary Search Tree
-Copy List with Random Pointer
-Linked List Cycle II
-Odd-Even Linked List
-Next Greater Node In Linked List
+- Add Two Numbers
+- Remove Nth Node From End of List
+- Merge Two Sorted Lists
+- Merge K Sorted Lists
+- Reorder List
+- Swap Nodes In Pairs
+- Partition Lists
+- Reverse a Linked List II
+- Convert Sorted List to Binary Search Tree
+- Copy List with Random Pointer
+- Linked List Cycle II
+- Odd-Even Linked List
+- Next Greater Node In Linked List
 
 __876. Middle of the Linked List__
 
