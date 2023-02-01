@@ -6,7 +6,7 @@
 https://quickref.me/
 
 __Youtube Channels for learning__
-
+- <a href='https://www.youtube.com/c/TraversyMedia' target='_blank'>Traversy Media</a>
 - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
 - [Clever Programmer](https://www.youtube.com/c/CleverProgrammer)
 - [Net Ninja](https://www.youtube.com/c/TheNetNinja)
