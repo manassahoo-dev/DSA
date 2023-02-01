@@ -108,3 +108,77 @@ class Solution {
     }
 }
 ```
+__LRU Cache__
+```java
+class ListNode{
+    int data;
+    int key;
+    ListNode next;
+    ListNode prev;
+    ListNode(int data,int key){
+        this.data=data;
+        this.key=key;
+    }
+}
+public class Solution {
+    int capacity;
+    ListNode head=new ListNode(-1,-1);
+    ListNode tail=new ListNode(-1,-1); // anchor nodes to prevent null pointer
+    HashMap<Integer,ListNode> map;
+
+    public Solution(int capacity) {
+        head.next=tail;
+        tail.prev=head;  
+        this.capacity=capacity;
+        map=new HashMap<Integer,ListNode>();
+    }
+   
+    public int get(int key) {
+        if(map.containsKey(key)){
+          int toReturn=map.get(key).data;
+          ListNode og=map.get(key);
+          ListNode t1=og.prev;
+          ListNode t2=og.next;
+          t1.next=t2;
+          t2.prev=t1;
+          ListNode t3=tail.prev;
+          og.next=tail;
+          og.prev=tail.prev;
+          tail.prev=og;
+          t3.next=og;
+          return toReturn;  
+        }
+        else
+            return -1;
+    }
+   
+    public void set(int key, int value) {
+        if(map.containsKey(key)){
+            ListNode t1=map.get(key);
+            ListNode t2=t1.prev;
+            ListNode t3=t1.next;
+            t2.next=t3;
+            t3.prev=t2;
+            t1=null;
+            map.remove(key);
+        }
+        else if(map.size()==capacity){
+            map.remove(head.next.key);  //reduce the mapsize
+            //remove the first node
+            ListNode t1=head.next;
+            ListNode t2=t1.next;
+            head.next=t2;
+            t2.prev=head;
+            t1=null;
+        }
+        //add a new node at the end of the cache
+        ListNode newNode=new ListNode(value,key);
+        ListNode temp1=tail.prev;
+        temp1.next=newNode;
+        newNode.next=tail;
+        newNode.prev=temp1;
+        tail.prev=newNode;
+        map.put(key,newNode);
+    }
+}
+```
