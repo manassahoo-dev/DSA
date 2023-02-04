@@ -49,3 +49,8 @@ Platforms to solve coding challenges
 - [Great Frontend Dev](https://www.greatfrontend.com)
 - [Devtools Tech](https://www.devtools.tech)
 - [Learners Bucket](https://learnersbucket.com)
+
+Roadmap
+- https://roadmap.sh/
+- https://roadmap.sh/frontend
+- https://roadmap.sh/backend
