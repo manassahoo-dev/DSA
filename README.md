@@ -4,7 +4,7 @@
 - geeksforgeeks
 
 - [quickref](https://quickref.me/)
-- [GitSheet](htps://gitsheet.wtf/)
+- [GitSheet](https://gitsheet.wtf/)
 
 __Youtube Channels for learning__
 - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
