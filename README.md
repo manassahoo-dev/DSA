@@ -3,7 +3,8 @@
 - leetcode
 - geeksforgeeks
 
-https://quickref.me/
+- https://quickref.me/
+- tps://gitsheet.wtf/
 
 __Youtube Channels for learning__
 - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
