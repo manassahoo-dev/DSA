@@ -1,7 +1,7 @@
 # DSA LEETCODE
 - DSA Concepts
-- leetcode
-- geeksforgeeks
+- [leetcode](https://leetcode.com/)
+- [geeksforgeeks](https://geeksforgeeks.com)
 
 - [quickref](https://quickref.me/)
 - [GitSheet](https://gitsheet.wtf/)
