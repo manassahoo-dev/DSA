@@ -2,7 +2,6 @@
 - DSA Concepts
 - [leetcode](https://leetcode.com/)
 - [geeksforgeeks](https://geeksforgeeks.org)
-
 - [quickref](https://quickref.me/)
 - [GitSheet](https://gitsheet.wtf/)
 
