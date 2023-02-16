@@ -1,5 +1,3 @@
-# DSA LEETCODE
-- DSA Concepts
 - [leetcode.com](https://leetcode.com/)
 - [geeksforgeeks.org](https://geeksforgeeks.org)
 - [quickref](https://quickref.me/)
