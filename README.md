@@ -1,12 +1,16 @@
 - [topcoder](https://www.topcoder.com/)
 - [coderbyte](https://coderbyte.com/)
+- [HackerRank](https://hackerRank.com/)
+- [CodeChef](https://codeChef.com/)
+- [LeetCode](https://leetCode.com/)
+- [Codewars](https://codewars.com/)
 
 Project Euler
-HackerRank
-CodeChef
+
+
 Exercism.io
-Codewars
-LeetCode
+
+
 - [leetcode.com](https://leetcode.com/)
 - [geeksforgeeks.org](https://geeksforgeeks.org)
 - [quickref](https://quickref.me/)
