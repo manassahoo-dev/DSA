@@ -4,11 +4,11 @@
 - [CodeChef](https://codeChef.com/)
 - [LeetCode](https://leetCode.com/)
 - [Codewars](https://codewars.com/)
+- [Project Euler](https://projecteuler.net/)
 
-Project Euler
 
 
-Exercism.io
+https://exercism.org/
 
 
 - [leetcode.com](https://leetcode.com/)
