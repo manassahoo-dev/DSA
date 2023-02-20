@@ -1,4 +1,4 @@
-Top 25 Algorithms Every Programmer Should Know
+__Top 25 Algorithms Every Programmer Should Know__
 
 1. Binary Search Algorithm
 2. Breadth First Search (BFS) Algorithm
