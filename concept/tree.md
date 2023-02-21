@@ -13,3 +13,8 @@ The node which is the immediate successor of a node.
 ### Root Node
 The topmost node of a tree or the node which does not have any parent node.
 A non-empty tree must contain exactly one root node.
+
+__Traversal__
+– Inorder 
+- Preorder 
+- Post Order
