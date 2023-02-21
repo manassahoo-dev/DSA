@@ -15,6 +15,6 @@ The topmost node of a tree or the node which does not have any parent node.
 A non-empty tree must contain exactly one root node.
 
 __Traversal__
-– Inorder 
-- Preorder 
-- Post Order
+Inorder => Left, Root, Right.
+Preorder => Root, Left, Right.
+Post order => Left, Right, Root.
