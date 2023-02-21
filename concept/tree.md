@@ -18,3 +18,13 @@ __Traversal__
 Inorder => Left, Root, Right.
 Preorder => Root, Left, Right.
 Post order => Left, Right, Root.
+
+Inorder traversal
+First, visit all the nodes in the left subtree
+Then the root node
+Visit all the nodes in the right subtree
+```
+inorder(root->left)
+display(root->data)
+inorder(root->right)
+```
