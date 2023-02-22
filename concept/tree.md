@@ -28,3 +28,13 @@ inorder(root->left)
 display(root->data)
 inorder(root->right)
 ```
+
+```java
+public void inorderTraversal(TreeNode root, List<Integer> res) {
+        if (root != null) {
+            inorderTraversal(root.left, res);
+            res.add(root.val);
+            inorderTraversal(root.right, res);
+        }
+}
+```
