@@ -83,34 +83,34 @@ Serialize and deserialize:-
 4.https://leetcode.com/problems/serialize-and-deserialize-bst/
 
 Leaves related problem:-
-1.https://leetcode.com/problems/sum-of-left-leaves/ EASY
-2.https://leetcode.com/problems/leaf-similar-trees/ EASY
-3.https://leetcode.com/problems/deepest-leaves-sum/
-4.https://leetcode.com/problems/delete-leaves-with-a-given-value/
+1. https://leetcode.com/problems/sum-of-left-leaves/ EASY
+2. https://leetcode.com/problems/leaf-similar-trees/ EASY
+3. https://leetcode.com/problems/deepest-leaves-sum/
+4. https://leetcode.com/problems/delete-leaves-with-a-given-value/
 
 Level order traversal:-
-1.https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
-2.https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/
-3.https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
-4.https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
-5.https://leetcode.com/problems/frog-position-after-t-seconds/
-6.https://leetcode.com/problems/even-odd-tree/
-7.https://leetcode.com/problems/binary-tree-level-order-traversal/
-8.https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
-9.https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
-10.https://leetcode.com/problems/binary-tree-right-side-view/
-11.https://leetcode.com/problems/n-ary-tree-level-order-traversal/
-12.https://leetcode.com/problems/find-largest-value-in-each-tree-row/
-13.https://leetcode.com/problems/add-one-row-to-tree/
-14.https://leetcode.com/problems/average-of-levels-in-binary-tree/
-15.https://leetcode.com/problems/maximum-width-of-binary-tree/
+1. https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
+2. https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/
+3. https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
+4. https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
+5. https://leetcode.com/problems/frog-position-after-t-seconds/
+6. https://leetcode.com/problems/even-odd-tree/
+7. https://leetcode.com/problems/binary-tree-level-order-traversal/
+8. https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+9. https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+10. https://leetcode.com/problems/binary-tree-right-side-view/
+11. https://leetcode.com/problems/n-ary-tree-level-order-traversal/
+12. https://leetcode.com/problems/find-largest-value-in-each-tree-row/
+13. https://leetcode.com/problems/add-one-row-to-tree/
+14. https://leetcode.com/problems/average-of-levels-in-binary-tree/
+15. https://leetcode.com/problems/maximum-width-of-binary-tree/
 
 Node deletion:-
-1.https://leetcode.com/problems/delete-nodes-and-return-forest/
-2.https://leetcode.com/problems/delete-node-in-a-bst/
+1. https://leetcode.com/problems/delete-nodes-and-return-forest/
+2. https://leetcode.com/problems/delete-node-in-a-bst/
 
 Tree construction:-
-1.https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
+1. https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 2.https://leetcode.com/problems/all-possible-full-binary-trees/
 3.https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
 4.https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
