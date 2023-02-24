@@ -60,27 +60,26 @@ class Solution {
 ```
 
 Ancestor problem :-
-
-1.https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
-2.https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
-3.https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
-4.https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
-5.https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
-6.https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+1. https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+2. https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+3. https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
+4. https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+5. https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
+6. https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 
 Root to leaf path problems:-
-1.https://leetcode.com/problems/binary-tree-paths/ EASY
-2.https://leetcode.com/problems/path-sum-iii/submissions/
-3.https://leetcode.com/problems/smallest-string-starting-from-leaf/
-4.https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
-5.https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
-6.https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
+1. https://leetcode.com/problems/binary-tree-paths/ EASY
+2. https://leetcode.com/problems/path-sum-iii/submissions/
+3. https://leetcode.com/problems/smallest-string-starting-from-leaf/
+4. https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+5. https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
+6. https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 
 Serialize and deserialize:-
-1.https://leetcode.com/problems/serialize-and-deserialize-binary-tree/ Hard
-2.https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/ Medium
-3.https://leetcode.com/problems/serialize-and-deserialize-bst/
-4.https://leetcode.com/problems/serialize-and-deserialize-bst/
+1. https://leetcode.com/problems/serialize-and-deserialize-binary-tree/ Hard
+2. https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/ Medium
+3. https://leetcode.com/problems/serialize-and-deserialize-bst/
+4. https://leetcode.com/problems/serialize-and-deserialize-bst/
 
 Leaves related problem:-
 1. https://leetcode.com/problems/sum-of-left-leaves/ EASY
