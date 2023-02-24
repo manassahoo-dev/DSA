@@ -111,71 +111,70 @@ Node deletion:-
 
 Tree construction:-
 1. https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
-2.https://leetcode.com/problems/all-possible-full-binary-trees/
-3.https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
-4.https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
-5.https://leetcode.com/problems/validate-binary-tree-nodes/
-6.https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/
-7.https://leetcode.com/problems/merge-bsts-to-create-single-bst/
-8.https://leetcode.com/problems/unique-binary-search-trees-ii/
-9.https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
-10.https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
-11.
+2. https://leetcode.com/problems/all-possible-full-binary-trees/
+3. https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+4. https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
+5. https://leetcode.com/problems/validate-binary-tree-nodes/
+6. https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/
+7. https://leetcode.com/problems/merge-bsts-to-create-single-bst/
+8. https://leetcode.com/problems/unique-binary-search-trees-ii/
+9. https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+10. https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 
 Distance between two Nodes:-
-1.https://leetcode.com/problems/minimum-distance-between-bst-nodes/
-2.https://leetcode.com/problems/sum-of-distances-in-tree/ Hard
-3.https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+1. https://leetcode.com/problems/minimum-distance-between-bst-nodes/
+2. https://leetcode.com/problems/sum-of-distances-in-tree/ Hard
+3. https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 
-**Inorder traversal **
-1.https://leetcode.com/problems/increasing-order-search-tree/
-2.https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
-3.https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
-4.https://leetcode.com/problems/validate-binary-search-tree/
-5.https://leetcode.com/problems/convert-bst-to-greater-tree/
+**Inorder traversal**
+1. https://leetcode.com/problems/increasing-order-search-tree/
+2. https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+3. https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+4. https://leetcode.com/problems/validate-binary-search-tree/
+5. https://leetcode.com/problems/convert-bst-to-greater-tree/
 Rangesum of BT
 1.https://leetcode.com/problems/range-sum-of-bst/
 
 Flipping:-
-1.https://leetcode.com/problems/flip-equivalent-binary-trees/
-2.https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
+1. https://leetcode.com/problems/flip-equivalent-binary-trees/
+2. https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
 
 Check binary tree:-
-1.https://leetcode.com/problems/check-completeness-of-a-binary-tree/
-2.https://leetcode.com/problems/check-completeness-of-a-binary-tree/
-3.https://leetcode.com/problems/univalued-binary-tree/
+1. https://leetcode.com/problems/check-completeness-of-a-binary-tree/
+2. https://leetcode.com/problems/check-completeness-of-a-binary-tree/
+3. https://leetcode.com/problems/univalued-binary-tree/
 
 Tree relations:-
-1.https://leetcode.com/problems/cousins-in-binary-tree/
+1. https://leetcode.com/problems/cousins-in-binary-tree/
 
 Counting of nodes:-
-1.https://leetcode.com/problems/count-good-nodes-in-binary-tree/
-2.https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
-3.https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
-4.https://leetcode.com/problems/unique-binary-search-trees/
+1. https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+2. https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
+3. https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
+4. https://leetcode.com/problems/unique-binary-search-trees/
 
 Recovery:-
 1.https://leetcode.com/problems/recover-binary-search-tree/
 
 Kth smallest :-
-1.https://leetcode.com/problems/kth-smallest-element-in-a-bst/
-2.https://leetcode.com/problems/kth-largest-element-in-a-stream/
+1. https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+2. https://leetcode.com/problems/kth-largest-element-in-a-stream/
 
 Trimming or pruning:
-1.https://leetcode.com/problems/trim-a-binary-search-tree/
+1. https://leetcode.com/problems/trim-a-binary-search-tree/
 
 Searching:-
-1.https://leetcode.com/problems/search-in-a-binary-search-tree/
+1. https://leetcode.com/problems/search-in-a-binary-search-tree/
 
 Difference problem in BT:-
-1.https://leetcode.com/problems/kth-largest-element-in-a-stream/
+1. https://leetcode.com/problems/kth-largest-element-in-a-stream/
 
 Tree checking:-
-1.https://leetcode.com/problems/same-tree/
-2.https://leetcode.com/problems/symmetric-tree/
+1. https://leetcode.com/problems/same-tree/
+2. https://leetcode.com/problems/symmetric-tree/
 
 Depth problem:-
-1.https://leetcode.com/problems/maximum-depth-of-binary-tree/
-2.https://leetcode.com/problems/minimum-depth-of-binary-tree/
-3.https://leetcode.com/problems/minimum-absolute-difference-in-bst/
-4.https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
+1. https://leetcode.com/problems/maximum-depth-of-binary-tree/
+2. https://leetcode.com/problems/minimum-depth-of-binary-tree/
+3. https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+4. https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
