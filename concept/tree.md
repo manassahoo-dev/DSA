@@ -58,6 +58,20 @@ class Solution {
     }
 }
 ```
+1. Level Order
+2. Reverse Level Order
+3. Inorder Traversal
+4. Preorder Traversal
+5. Postorder Traversal
+6. Left View of Binary tree
+7. Right View of Binary tree
+8. ZigZag Level Order Traversal BT
+9. Invert the Binary Tree
+10. Vertical Order traversal
+
+
+
+
 
 Ancestor problem :-
 1. https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
