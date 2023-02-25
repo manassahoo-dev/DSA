@@ -68,6 +68,14 @@ class Solution {
 8. ZigZag Level Order Traversal BT
 9. Invert the Binary Tree
 10. Vertical Order traversal
+11. Top View of Binary tree
+12. Bottom View Of Binary Tree
+13. Diagonal Traversal
+14. Binary Tree From Inorder And Preorder
+15. Odd and Even Levels
+16. Boundary Traversal Of Binary Tree
+17. Check if given Preorder, Inorder and Postorder traversals are of same tree
+18. Binary Tree From Inorder And Postorder
 
 
 
