@@ -76,6 +76,8 @@ class Solution {
 16. Boundary Traversal Of Binary Tree
 17. Check if given Preorder, Inorder and Postorder traversals are of same tree
 18. Binary Tree From Inorder And Postorder
+19. Valid Binary Search Tree
+20. Search in BST
 
 
 
