@@ -14,7 +14,9 @@ The node which is the immediate successor of a node.
 The topmost node of a tree or the node which does not have any parent node.
 A non-empty tree must contain exactly one root node.
 
-https://media.geeksforgeeks.org/wp-content/uploads/20221124153129/Treedatastructure.png
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20221124153129/Treedatastructure.png "Tree")
+
+
 
 __Traversal__
 Inorder => Left, Root, Right.
