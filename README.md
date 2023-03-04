@@ -67,6 +67,29 @@
   12. [Workana](https://www.workana.com/) Freelance Job Board in Spanish and Portuguese
   13. [Working Nomads](https://www.workingnomads.co/jobs)
 
+
+## Job boards aggregators
+  1. [Bergamot](https://bergamot.io/) - Provides the widest selection of remote tech jobs by monitoring over 150,000 companies' career pages. Full-text search and AI-powered geo filter inside. Free, no sign-up required.
+  1. [Career Vault](https://www.careervault.io) - Hundreds of remote jobs added each day from thousands of company career pages. Free and no signup required.
+  1. [Findwork](https://findwork.dev/) Crawls multiple job boards and enriches job postings with Glassdoor (reviews) and Crunchbase (funding).
+  1. [Google Jobs](https://www.google.com/search?q=remote&ibp=htl;jobs#fpstate=tldetail&htidocid=IO0hI7dpKTSlzSKoAAAAAA%3D%3D&htin=1&htivrt=jobs)  – Aggregates from multiple boards and employer sites with sensitivity to location, job type, and more. Find out how to use it [here](https://support.google.com/websearch/answer/7498276?p=job_search_box&sa=X&ved=0ahUKEwid_qyLmJfXAhVD4YMKHYGBAK8Qra4CCGQoAQ&visit_id=1-636449234996681631-3229288694&rd=1).
+  1. [JS Remotely](https://jsremotely.com/) - All remote JavaScript jobs on one board
+  1. [Meerkad](https://meerkad.com/) - Handpicked and curated by community jobs from most popular remote job boards, companies' websites, Facebook groups, Twitter search, Reddit, StackOverflow, HackerNews, Dribbble, Behance, and many others  
+  1. [Remote.io](https://www.remote.io/) - Job board and aggregator for remote jobs, primarily tech.
+  1. [Remote 4 Me](https://remote4me.com/) - An aggregator for remote jobs in tech and non-tech.
+  1. [Remote Index](https://remoteindex.co/) - Job board and aggregator for remote jobs in tech.
+  1. [Remote Leaf](https://remoteleaf.com) - Hand-picked remote jobs from 40+ remote job boards, 1500+ company career pages, Twitter feed, Linkedin, Reddit, Hacker News Hiring and only sends the ones that apply to you.
+  1. [Remote OK](https://remoteok.io/) - Scrapes many job board feeds for remote positions.
+  1. [Remote Python](https://www.remotepython.com/) - Job board and aggregator specifically for remote Python jobs.
+  1. [Theo](https://theojobs.com/) - All remote design jobs, one place.
+  1. [UN Talent](https://untalent.org/jobs/home-based) - Vacancies at the United Nations and its agencies.
+  1. [Vollna](https://www.vollna.com/) - An aggregator for top freelance sites.
+  1. [whoishiring.io](https://whoishiring.io/#!/search/19.41/-43.14/2/?remote=true)
+  1. [Work Remotely](https://workremotely.io/) - Crawls and curates many job board feeds for remote positions
+  1. [Workaline](https://workaline.com/) - Remote jobs aggregator. Formerly called Alfred.
+  1. [Wrk.ist](https://wrk.ist/) - latest remote jobs in your console (curl)
+
+
 https://exercism.org/
 
 
