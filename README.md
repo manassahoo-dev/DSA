@@ -89,7 +89,8 @@
   1. [Wrk.ist](https://wrk.ist/) - latest remote jobs in your console (curl)
 
 
-https://exercism.org/
+1. https://exercism.org/
+1. https://okso.app/
 
 
 - [leetcode.com](https://leetcode.com/)
