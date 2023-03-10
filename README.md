@@ -7,7 +7,11 @@
 - [Project Euler](https://projecteuler.net/)
 
 ## Job boards
-  1. [4 Day Week](https://4dayweek.io) - Software jobs with a better work / life balance.
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| [4 Day Week](https://4dayweek.io)   | Software jobs with a better work / life balance.        |
+  1.  - 
   1. [Angel List](https://angel.co/jobs) - Startup Jobs. Search by going to Job Type, and selecting "Remote OK".
   1. [Authentic Jobs](https://authenticjobs.com/?search_location=remote)
   1. [Built In](https://builtin.com/jobs/remote)
