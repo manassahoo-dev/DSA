@@ -7,11 +7,28 @@
 - [Project Euler](https://projecteuler.net/)
 
 ## Job boards
-| Syntax      | Description |
-| ----------- | ----------- |
-| [4 Day Week](https://4dayweek.io)   | Software jobs with a better work / life balance.        |
-| [Authentic Jobs](https://authenticjobs.com/?search_location=remote)      ||
-| [Built In](https://builtin.com/jobs/remote)||
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://4dayweek.io" rel="nofollow">4 Day Week</a></td>
+<td>Software jobs with a better work / life balance.</td>
+</tr>
+<tr>
+<td><a href="https://authenticjobs.com/?search_location=remote" rel="nofollow">Authentic Jobs</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://builtin.com/jobs/remote" rel="nofollow">Built In</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
   1. [ClojureJobboard.com](https://clojurejobboard.com/remote-clojure-jobs.html)- Clojure jobs, filter -> Remote only
   1. [Codestunts](https://codestunts.com)
