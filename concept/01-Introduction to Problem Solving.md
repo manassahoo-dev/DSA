@@ -1,10 +1,7 @@
 ## count the number of factors of a given number
 
 **Brute Force Approach:**
-- Iterate through all the numbers from 1 to the given number
-- For each number, check if it is a divisor of the given number
--  it is a divisor, increment a counter
-- turn the final count of divisors as the number of factors
+<ul><li>Iterate through all the numbers from 1 to the given number</li><li>For each number, check if it is a divisor of the given number</li><li>If it is a divisor, increment a counter</li><li>Return the final count of divisors as the number of factors</li></ul>
 
 ```java
 public static int countFactorsBruteForce(int num) {
