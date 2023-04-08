@@ -17,12 +17,7 @@ public static int countFactorsBruteForce(int num) {
 Tme complexity:O(n), where n is the given number.
 
 **Optimal Approach:**
-- nd the square root of the given number
-- erate through all the numbers from 1 to the square root of the given number
-- r each number, check if it is a divisor of the given number
--  it is a divisor, count it twice (because each divisor has a complementary divisor)
--  the given number is a perfect square, only count its square root once
-- turn the final count of divisors as the number of factors
+<ul><li>Find the square root of the given number</li><li>Iterate through all the numbers from 1 to the square root of the given number</li><li>For each number, check if it is a divisor of the given number</li><li>If it is a divisor, count it twice (because each divisor has a complementary divisor)</li><li>If the given number is a perfect square, only count its square root once</li><li>Return the final count of divisors as the number of factors</li></ul>
 
 ```java
 public static int countFactorsOptimal(int num) {
