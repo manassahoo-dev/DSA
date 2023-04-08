@@ -1,4 +1,10 @@
-## count the number of factors of a given number
+## Table of Contents
+
+- [Count the number of factors](#factors)
+- [Section 2](#section-2)
+- [Section 3](#section-3)
+
+## Count the number of factors of a given number {#factors}
 
 **Brute Force Approach:**
 
