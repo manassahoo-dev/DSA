@@ -1,6 +1,6 @@
 ## count the number of factors of a given number
 
-### Brute Force Approach:
+**Brute Force Approach:**
 ```java
 public static int countFactorsBruteForce(int num) {
     int count = 0;
@@ -15,7 +15,7 @@ public static int countFactorsBruteForce(int num) {
 The above code iterates through all the numbers from 1 to the given number, checks if each number is a divisor of the given number, and increments a counter if it is. 
 This approach has a time complexity of O(n), where n is the given number.
 
-### Optimal Approach:
+**Optimal Approach:**
 ```java
 public static int countFactorsOptimal(int num) {
     int count = 0;
