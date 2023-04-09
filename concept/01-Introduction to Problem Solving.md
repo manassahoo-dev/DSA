@@ -51,3 +51,10 @@ public static int countFactorsOptimal(int num) {
 }
 ```
 Tme complexity: O(sqrt(n)), where n is the given number.
+
+**Notes**
+1. A factor of a number is a positive integer that divides the number without leaving a remainder. 
+For example, the factors of 12 are 1, 2, 3, 4, 6, and 12.
+1. Every number has at least two factors: 1 and itself.
+1. If a number has an odd number of factors, it must be a perfect square. 
+This is because the factors of a perfect square come in pairs, except for the square root itself, which is a factor only once.
