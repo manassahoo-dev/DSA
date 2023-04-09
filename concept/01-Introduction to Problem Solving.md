@@ -1,7 +1,7 @@
 ## Table of Contents
 
 - [Count the number of factors](#Count-the-number-of-factors)
-- [Section 2](#section-2)
+- [Check if Number is Prime](#check-if-Number-is-Prime)
 - [Section 3](#section-3)
 
 ## Count the number of factors
@@ -58,3 +58,23 @@ For example, the factors of 12 are 1, 2, 3, 4, 6, and 12.
 1. Every number has at least two factors: 1 and itself.
 1. If a number has an odd number of factors, it must be a perfect square. 
 This is because the factors of a perfect square come in pairs, except for the square root itself, which is a factor only once.
+
+## Check if Number is Prime
+- If the given number N is less than or equal to 1, we return false because 1 and all numbers less than 1 are not prime.
+- We loop through all the numbers from 2 to the square root of N.
+- If N is divisible by any number i, where i is between 2 and the square root of N, then N is not a prime number and we return false.
+- If the loop completes without finding any divisor of N, then N is a prime number and we return true.
+
+```java
+public static boolean isPrime(int N) {
+    if (N <= 1) {
+        return false;
+    }
+    for (int i = 2; i*i <= N; i++) {
+        if (N % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+```
