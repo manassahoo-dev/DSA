@@ -7,7 +7,9 @@
 ### Count of elements
 Given an array A of N integers. Count the number of elements that have at least 1 elements greater than itself.
 
-**Hint**: Only elements that are equal to the maximum value of the array do not satisfy this
+**Hint**: 
+- Only elements that are equal to the maximum value of the array do not satisfy this
+- Count total number of max element and subtract from the list size to get the answer.
 ```java
 public int solve(ArrayList<Integer> A) {
     Integer max = 0;
