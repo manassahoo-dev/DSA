@@ -1,3 +1,71 @@
+## Table of Contents
+
+- [Count of elements](#Count-of-elements)
+- [Check if Number is Prime](#check-if-Number-is-Prime)
+- [Section 3](#section-3)
+
+### Count of elements
+Given an array A of N integers. Count the number of elements that have at least 1 elements greater than itself.
+
+```java
+public int solve(ArrayList<Integer> A) {
+    Integer max = 0;
+    int count = 0;
+    for(Integer i: A){
+        if(i > max){
+            max = i;
+            count = 1;
+        }else if(i == max){
+            count += 1;
+        }
+    }
+    return A.size() - count;
+}
+```    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Prefix Sum**
 
 Prefix sum is the technique where you precompute & store the cumulative sum of the sequence of elements that allows fast sum calculation of any continuous range.
