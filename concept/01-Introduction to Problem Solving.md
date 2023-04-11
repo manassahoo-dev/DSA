@@ -80,6 +80,12 @@ public static boolean isPrime(int N) {
 ```
 
 More optimised solution
+
+- The first thing it does is to check whether the number is less than or equal to 1. If it is, then it immediately returns false because 1 and any number less than 1 cannot be a prime number.
+- If the number is greater than 1, it checks whether the number is less than or equal to 3. If it is, then it returns true because 2 and 3 are both prime numbers.
+- If the number is greater than 3, it checks whether the number is divisible by 2 or 3. If it is, then it immediately returns false because any number that is divisible by 2 or 3 cannot be a prime number.
+- If the number is not divisible by 2 or 3, it then checks whether the number is divisible by any other potential factor of the form 6k ± 1 (where k is a non-negative integer) up to the square root of the number. If the number is divisible by any of these potential factors, then it immediately returns false because the number is not a prime number.
+- If the number is not divisible by any potential factors up to the square root of the number, then it returns true because the number is a prime number.
 ```java
 public static boolean isPrime(int N) {
     if (N <= 1) {
