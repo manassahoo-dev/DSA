@@ -78,3 +78,22 @@ public static boolean isPrime(int N) {
     return true;
 }
 ```
+
+More optimised solution
+```java
+public static boolean isPrime(int N) {
+    if (N <= 1) {
+        return false;
+    } else if (N <= 3) {
+        return true;
+    } else if (N % 2 == 0 || N % 3 == 0) {
+        return false;
+    }
+    for (int i = 5; i * i <= N; i += 6) {
+        if (N % i == 0 || N % (i + 2) == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+```
