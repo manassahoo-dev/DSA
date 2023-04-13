@@ -1,4 +1,4 @@
-1. <span style="color:green">DAY 16, 22 SEP - Intermediate DSA: Introduction to Problem Solving</span>
+1. DAY 16, 22 SEP - Intermediate DSA: Introduction to Problem Solving
 1. DAY 17, 24 SEP - Intermediate DSA: Time Complexity-1
 1. DAY 18, 27 SEP - Intermediate DSA: Time Complexity-2
 1. DAY 19, 29 SEP - Intermediate DSA: Introduction to Arrays
