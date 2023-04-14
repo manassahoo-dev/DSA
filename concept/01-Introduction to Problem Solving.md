@@ -2,7 +2,6 @@
 
 - [Count the number of factors](#Count-the-number-of-factors)
 - [Check if Number is Prime](#check-if-Number-is-Prime)
-- [Section 3](#section-3)
 
 ## Count the number of factors
 
