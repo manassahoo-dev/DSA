@@ -30,7 +30,7 @@ public int solve(ArrayList<Integer> A) {
 
 
 
-
+Carry Forward Technique
 
 
 
