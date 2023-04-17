@@ -4,6 +4,11 @@
 - [Check if Number is Prime](#check-if-Number-is-Prime)
 - [Section 3](#section-3)
 
+- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [Missing Number](https://leetcode.com/problems/missing-number/)
+- 
+
+
 ### Count of elements
 Given an array A of N integers. Count the number of elements that have at least 1 elements greater than itself.
 
