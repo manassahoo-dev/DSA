@@ -6,6 +6,17 @@
 - [Codewars](https://codewars.com/)
 - [Project Euler](https://projecteuler.net/)
 
+
+## JavaScript References
+
+- [MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference) - Simply the most extensive and up to date language reference.
+- [DevDocs](http://devdocs.io/javascript) - Search MDN comfortably. Even offline.
+- [JavaScript Notes & Reference](https://wesbos.com/javascript) - Detailed reference with code examples. Divided into topics covering basic and advanced subjects.
+- [Simplified JavaScript Jargon](http://jargon.js.org) - Glossary which explains all the buzzwords from the JavaScript eco system.
+- [Functional Programming Jargon](https://functional.works-hub.com/blog/Functional-Programming-Jargon) - Explains terms used in functional programming in the JavaScript context.
+- [ECMAScript® Language Specification](http://ecma-international.org/publications/standards/Ecma-262.htm) - The standard JavaScript is based on. Only for very advanced learners.
+
+
 ## Job boards
 <table>
 <thead>
