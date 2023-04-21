@@ -9,6 +9,18 @@
 - 
 
 
+**sliding window technique with two pointers**
+1.  [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+2.  [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+3.  [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+4.  [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+5.  [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+6.  [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
+7.  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+8.  [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
+9.  [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+10.  [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+
 ### Count of elements
 Given an array A of N integers. Count the number of elements that have at least 1 elements greater than itself.
 
