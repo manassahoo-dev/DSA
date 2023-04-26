@@ -27,3 +27,8 @@ For example, consider the following code:
   <li>How does hoisting work in ECMAScript 6 (ES6) with let and const variables?</li>
   <li>How does hoisting work with arrow functions in JavaScript?</li>
 </ol>
+
+Diif between call, apply, bind
+Diff between debouncing, throttle
+Implement dynamic currying
+Implement Singleton design pattern
