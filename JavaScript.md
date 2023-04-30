@@ -32,3 +32,11 @@ Diif between call, apply, bind
 Diff between debouncing, throttle
 Implement dynamic currying
 Implement Singleton design pattern
+
+
+
+- https://github.com/trekhleb/javascript-algorithms
+- https://github.com/getify/You-Dont-Know-JS
+- https://github.com/airbnb/javascript
+- https://github.com/30-seconds/30-seconds-of-code
+- https://github.com/ryanmcdermott/clean-code-javascript
