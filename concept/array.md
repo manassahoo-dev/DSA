@@ -44,6 +44,31 @@ Sliding Window:
 5.  [1004\. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
 
+Here are some LeetCode problems that can be solved using Moore's Voting Algorithm:
+
+Majority Element:
+Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊n/2⌋ times. You may assume that the array is non-empty and the majority element always exists in the array.
+Solution: https://leetcode.com/problems/majority-element/
+
+Majority Element II:
+Given an integer array of size n, find all elements that appear more than ⌊n/3⌋ times. You may assume that the array is non-empty and the majority element always exists in the array.
+Solution: https://leetcode.com/problems/majority-element-ii/
+
+Find All Duplicates in an Array:
+Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once. Find all the elements that appear twice in this array.
+Solution: https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
+Verify Preorder Serialization of a Binary Tree:
+One way to serialize a binary tree is to use preorder traversal. When we encounter a non-null node, we record the node's value. If it is a null node, we record using a sentinel value such as '#'. Given a string of comma-separated values preorder, return true if it is a correct preorder traversal serialization of a binary tree.
+Solution: https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/
+
+Maximum Length of Repeated Subarray:
+Given two integer arrays nums1 and nums2, return the maximum length of a subarray that appears in both arrays.
+Solution: https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+
+In Moore's Voting Algorithm, we use a two-step approach to find the majority element in an array. In the first step, we find a candidate for the majority element. In the second step, we verify if the candidate is actually the majority element by counting its frequency in the array. This algorithm is very efficient and has a time complexity of O(n) and a space complexity of O(1).
+
+
 Maximum Subarray: https://leetcode.com/problems/maximum-subarray/
 Subarray Sum Equals K: https://leetcode.com/problems/subarray-sum-equals-k/
 Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/
