@@ -27,18 +27,8 @@ function baz() {
 baz();
 ```
 
-In this example, we have three functions: foo(), bar(), and baz(). The baz() function calls the bar() function, which in turn calls the foo() function. Each function logs a message to the console when it is called.
+In this example, we have three functions: `foo()`, `bar()`, and `baz()`. The `baz()` function calls the `bar()` function, which in turn calls the `foo()` function. Each function logs a message to the console when it is called.
 
-Here is a diagram of the call stack as the program executes:
+When the `baz()` function is called, it is added to the top of the stack. Then, `bar()` is called from `baz()`, and is added to the top of the stack. Finally, `foo()` is called from `bar()`, and is added to the top of the stack.
 
-|          |
-|    foo   |
-|----------|
-|    bar   |
-|----------|
-|    baz   |
-|----------|
-
-When the baz() function is called, it is added to the top of the stack. Then, bar() is called from baz(), and is added to the top of the stack. Finally, foo() is called from bar(), and is added to the top of the stack.
-
-When foo() returns, it is removed from the top of the stack. Then, bar() returns and is removed from the stack. Finally, baz() returns and is removed from the stack.
+When `foo()` returns, it is removed from the top of the stack. Then, `bar()` returns and is removed from the stack. Finally, `baz()` returns and is removed from the stack.
