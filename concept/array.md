@@ -69,26 +69,26 @@ Solution: https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 In Moore's Voting Algorithm, we use a two-step approach to find the majority element in an array. In the first step, we find a candidate for the majority element. In the second step, we verify if the candidate is actually the majority element by counting its frequency in the array. This algorithm is very efficient and has a time complexity of O(n) and a space complexity of O(1).
 
 
-Maximum Subarray: https://leetcode.com/problems/maximum-subarray/
-Subarray Sum Equals K: https://leetcode.com/problems/subarray-sum-equals-k/
-Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/
-Maximum Product Subarray: https://leetcode.com/problems/maximum-product-subarray/
-Maximum Sum Circular Subarray: https://leetcode.com/problems/maximum-sum-circular-subarray/
-Minimum Size Subarray Sum: https://leetcode.com/problems/minimum-size-subarray-sum/
-Find All Anagrams in a String: https://leetcode.com/problems/find-all-anagrams-in-a-string/
-Continuous Subarray Sum: https://leetcode.com/problems/continuous-subarray-sum/
-Subarray Product Less Than K: https://leetcode.com/problems/subarray-product-less-than-k/
-Maximum Average Subarray I: https://leetcode.com/problems/maximum-average-subarray-i/
-Maximum Average Subarray II: https://leetcode.com/problems/maximum-average-subarray-ii/
-Number of Subarrays with Bounded Maximum: https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/
-Shortest Unsorted Continuous Subarray: https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
-Maximum Sum of Two Non-Overlapping Subarrays: https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
-Count Subarrays with Sum Equals to K: https://leetcode.com/problems/subarray-sum-equals-k/
-Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit: https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
-Minimum Swaps to Make Sequences Increasing: https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
-Maximum Subarray Sum After One Operation: https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/
-Subarray Sums Divisible by K: https://leetcode.com/problems/subarray-sums-divisible-by-k/
-Maximum Sum of Three Non-Overlapping Subarrays: https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+- Maximum Subarray: https://leetcode.com/problems/maximum-subarray/
+- Subarray Sum Equals K: https://leetcode.com/problems/subarray-sum-equals-k/
+- Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/
+- Maximum Product Subarray: https://leetcode.com/problems/maximum-product-subarray/
+- Maximum Sum Circular Subarray: https://leetcode.com/problems/maximum-sum-circular-subarray/
+- Minimum Size Subarray Sum: https://leetcode.com/problems/minimum-size-subarray-sum/
+- Find All Anagrams in a String: https://leetcode.com/problems/find-all-anagrams-in-a-string/
+- Continuous Subarray Sum: https://leetcode.com/problems/continuous-subarray-sum/
+- Subarray Product Less Than K: https://leetcode.com/problems/subarray-product-less-than-k/
+- Maximum Average Subarray I: https://leetcode.com/problems/maximum-average-subarray-i/
+- Maximum Average Subarray II: https://leetcode.com/problems/maximum-average-subarray-ii/
+- Number of Subarrays with Bounded Maximum: https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/
+- Shortest Unsorted Continuous Subarray: https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+- Maximum Sum of Two Non-Overlapping Subarrays: https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+- Count Subarrays with Sum Equals to K: https://leetcode.com/problems/subarray-sum-equals-k/
+- - Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit: https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
+- Minimum Swaps to Make Sequences Increasing: https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+- Maximum Subarray Sum After One Operation: https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/
+- Subarray Sums Divisible by K: https://leetcode.com/problems/subarray-sums-divisible-by-k/
+- Maximum Sum of Three Non-Overlapping Subarrays: https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 
 
 **sliding window technique with two pointers**
