@@ -143,13 +143,13 @@ You can use _**rest**_ syntax to access all the passed arguments as an array. Th
 ##### Basic Syntax
 
 The syntax is:
-
+```js
     function f(...args) {
       const sum = args[0] + args[1];
       return sum;
     }
     console.log(f(3, 4)); // 7
-    
+```    
 
 In this example the variable `args` is `[3, 4]`.
 
@@ -162,7 +162,7 @@ The primary use-case is for creating generic factory functions that accept any f
 By the way, a function that accepts a function and/or returns a function is called a _**higher-order function**_, and they are very common in JavaScript.
 
 For example, you can create a logged function factory:
-
+```js
     function log(inputFunction) {
       return function(...args) {
          console.log("Input", args);
@@ -173,7 +173,7 @@ For example, you can create a logged function factory:
     }
     const f = log((a, b) => a + b);
     f(1, 2); // Logs: Input [1, 2] Output 3
-    
+```    
 
 * * *
 
