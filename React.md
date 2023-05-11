@@ -1,5 +1,5 @@
 1. What is React JS?
-+ React JS is an **open-source JavaScript library** used for building user interfaces or UI components.
+- React JS is an **open-source JavaScript library** used for building user interfaces or UI components.
 2. What are the key features of React JS?
 + Virtual DOM
 + Component-based architecture
