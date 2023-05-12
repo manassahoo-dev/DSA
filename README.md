@@ -7,6 +7,7 @@
 - [Project Euler](https://projecteuler.net/)
 - [interviewbit.com](https://www.interviewbit.com)
 - [codestudio](https://www.codingninjas.com/codestudio/problems)
+- [geeksforgeeks.org](https://geeksforgeeks.org)
 
 
 ## JavaScript References
@@ -125,8 +126,6 @@
 1. https://okso.app/
 
 
-- [leetcode.com](https://leetcode.com/)
-- [geeksforgeeks.org](https://geeksforgeeks.org)
 - [quickref](https://quickref.me/)
 - [GitSheet](https://gitsheet.wtf/)
 
