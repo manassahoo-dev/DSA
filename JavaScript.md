@@ -28,10 +28,10 @@ For example, consider the following code:
   <li>How does hoisting work with arrow functions in JavaScript?</li>
 </ol>
 
-Diif between call, apply, bind
-Diff between debouncing, throttle
-Implement dynamic currying
-Implement Singleton design pattern
+- Diif between call, apply, bind
+- Diff between debouncing, throttle
+- Implement dynamic currying
+- Implement Singleton design pattern
 
 
 
