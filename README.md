@@ -9,7 +9,6 @@
 - [codestudio](https://www.codingninjas.com/codestudio/problems)
 - [geeksforgeeks.org](https://geeksforgeeks.org)
 
-
 ## JavaScript References
 
 - [MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference) - Simply the most extensive and up to date language reference.
