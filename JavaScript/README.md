@@ -1,1 +1,2 @@
-[33-js-concepts](https://github.com/leonardomso/33-js-concepts)
+ - [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
+- [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
