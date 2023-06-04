@@ -44,3 +44,31 @@ public int solve(int[] A, int B) {
   return number % B;
 }
 ```
+**Q3. Divisibility by 8**
+
+Given a number A in the form of a string. Check if the number is divisible by eight or not.
+Return 1 if it is divisible by eight else, return 0.
+
+Input 1: A = "16"
+Output 1: **1**
+
+Input 2: A = "123"
+Output 2: **0**
+
+```java
+public int solve(String A) {
+  int n = A.length();
+  int sum = 0;
+  if (n == 1) {
+    sum = A.charAt(0);
+  } else if (n == 2) {
+    sum = A.charAt(1) + 10 * A.charAt(0);
+  } else {
+    sum = A.charAt(n - 1) + 10 * A.charAt(n - 2) + 100 * A.charAt(n - 3);
+  }
+  if (sum % 8 == 0) {
+    return 1;
+  }
+  return 0;
+}
+```
