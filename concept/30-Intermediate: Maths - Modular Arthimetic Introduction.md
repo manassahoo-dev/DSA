@@ -69,3 +69,23 @@ public int solve(String A) {
   return sum%8 == 0 ? 1 : 0;
 }
 ```
+**Q4. Concatenate Three Numbers**
+
+Given three 2-digit integers, A, B, and C, find out the minimum number obtained by concatenating them in any order. Return the minimum result obtained.
+
+Input 1: A = 10, B = 20, C = 30
+Input 2: A = 55, B = 43, C = 47 
+
+Output 1: 102030 ( 10 + 20 + 30 = 102030 )
+Output 2: 434755 ( 43 + 47 + 55 = 434755 )
+
+```java
+public int solve(int A, int B, int C) {
+  int small = 0, medium = 0, large = 0;
+  large = Math.max(A, Math.max(B, C)); //Largest Number among all
+  small = Math.min(A, Math.min(B, C)); //Smalles Number among all
+  medium = A + B + C - large - small; // Middle number
+
+  return small * 10000 + medium * 100 + large;
+}
+```
