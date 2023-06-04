@@ -66,9 +66,6 @@ public int solve(String A) {
   } else {
     sum = A.charAt(n - 1) + 10 * A.charAt(n - 2) + 100 * A.charAt(n - 3);
   }
-  if (sum % 8 == 0) {
-    return 1;
-  }
-  return 0;
+  return sum%8 == 0 ? 1 : 0;
 }
 ```
