@@ -4,6 +4,4 @@ By default, the `sort()` method sorts elements as strings. So, to sort numeric a
 const numbers = [4, 2, 7, 1, 9, 5];
 const increasingOrder = numbers.sort((a, b) => a - b);
 const decreasingOrder = numbers.sort((a, b) => b - a);
-
-console.log(increasingOrder);
 ```
