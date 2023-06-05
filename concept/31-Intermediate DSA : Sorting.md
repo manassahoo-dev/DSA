@@ -5,9 +5,12 @@ const numbers = [4, 2, 7, 1, 9, 5];
 const increasingOrder = numbers.sort((a, b) => a - b);
 const decreasingOrder = numbers.sort((a, b) => b - a);
 ```
+Problems
+1. [Elements Removal](#Elements-Removal)
+2. [Noble integers in an array](#Noble-integers-in-an-array)
+3. [Elements Removal](#Elements-Removal)
 
-
-## Q1. Elements Removal
+## Elements Removal
 
 _Problem Description_
 
@@ -34,7 +37,7 @@ public int solve(int[] A) {
   return totalSum;
 }
 ```
-## Q2. Noble integers in an array
+## Noble integers in an array
 
 _Problem Description_
 
