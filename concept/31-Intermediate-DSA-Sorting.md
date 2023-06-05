@@ -191,3 +191,38 @@ Example 2:
 Input: nums = [3,30,34,5,9]
 Output: "9534330"
 ```
+
+Solution using Custom Comparator
+```java
+public static String largestNumber(int[] nums) {
+  // Convert the array of integers to an array of strings
+  String[] numStrings = new String[nums.length];
+  for (int i = 0; i < nums.length; i++) {
+    numStrings[i] = String.valueOf(nums[i]);
+  }
+
+  // Sort the strings using a custom comparator
+  Arrays.sort(numStrings, new Comparator < String > () {
+    @Override
+    public int compare(String a, String b) {
+      // Concatenate the strings in different orders and compare them
+      String order1 = a + b;
+      String order2 = b + a;
+      return order2.compareTo(order1); // Compare in reverse order for descending sort
+    }
+  });
+
+  // Handle the case where all numbers are 0
+  if (numStrings[0].equals("0")) {
+    return "0";
+  }
+
+  // Concatenate the sorted strings to form the largest number
+  StringBuilder sb = new StringBuilder();
+  for (String numString: numStrings) {
+    sb.append(numString);
+  }
+
+  return sb.toString();
+}
+```
