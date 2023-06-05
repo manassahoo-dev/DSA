@@ -9,6 +9,7 @@ Problems
 1. [Elements Removal](#Elements-Removal)
 2. [Noble integers in an array](#Noble-integers-in-an-array)
 3. [Factors sort](#Factors-sort)
+4. [Largest Number](#Largest-Number)
 
 ## Elements Removal
 
@@ -166,3 +167,5 @@ public int[] solve(int[] A) {
   return A;
 }
 ```
+
+## Largest Number
