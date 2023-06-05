@@ -129,6 +129,7 @@ Output: [2, 7, 4] (The number 2 has 2 factors, 7 has 2 factors and 4 has 3 facto
 ```
 
 **Solution** (Using Custom Sort Comparator)
+![Image 1](https://github.com/manassahoo-dev/DSA/assets/6974223/a5dbb4a4-a539-44f0-a600-f65374b7d32a)
 
 ```java
 public static int getFactors(int a) {
