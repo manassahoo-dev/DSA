@@ -192,7 +192,20 @@ Input: nums = [3,30,34,5,9]
 Output: "9534330"
 ```
 
-Solution using Custom Comparator
+**Solution** (using Custom Comparator)
+1. Convert the array of integers to an array of strings.
+2. Sort the strings using a custom comparator.
+3. In the custom comparator, compare the concatenation of two strings in different orders to determine the sorting order.
+```
+String order1 = a + b;
+String order2 = b + a;
+return order2.compareTo(order1);
+```
+4. Use Arrays.sort to sort the strings in descending order.
+5. Handle the special case where all numbers are 0.
+6. Concatenate the sorted strings to form the largest number.
+7. Return the largest number as a string.
+
 ```java
 public static String largestNumber(int[] nums) {
   // Convert the array of integers to an array of strings
