@@ -8,7 +8,7 @@ const decreasingOrder = numbers.sort((a, b) => b - a);
 Problems
 1. [Elements Removal](#Elements-Removal)
 2. [Noble integers in an array](#Noble-integers-in-an-array)
-3. [Elements Removal](#Elements-Removal)
+3. [Factors sort](#Factors-sort)
 
 ## Elements Removal
 
@@ -107,5 +107,61 @@ public static int nobleInteger(int arr[]) {
     return arr[n - 1];
 
   return -1;
+}
+```
+
+## Factors sort
+
+_Problem Description_
+
+Given an array `A` of `N` elements. Sort the given array in increasing order of number of distinct factors of each element, i.e., element having the least number of factors should be the first to be displayed and the number having highest number of factors should be the last one. 
+If 2 elements have same number of factors, then number with less value should come first.
+
+**Note**: You cannot use any extra space
+
+_Examples_
+```
+Input: [6, 8, 9]
+Output : [9, 6, 8] (The number 9 has 3 factors, 6 has 4 factors and 8 has 4 factors.)
+  
+Input  : [2, 4, 7]
+Output : [2, 7, 4] (The number 2 has 2 factors, 7 has 2 factors and 4 has 3 factors.)
+```
+
+**Solution** (Using Custom Sort Comparator)
+
+```java
+public static int getFactors(int a) {
+  int factorCounter = 0;
+  for (int i = 1; i * i <= a; i++) {
+    if (a % i == 0) {
+      if (i == a / i) {
+        factorCounter++;
+      } else {
+        factorCounter += 2;
+      }
+    }
+  }
+  return factorCounter;
+}
+
+public int[] solve(int[] A) {
+  Integer[] arr = new Integer[A.length];
+  for (int i = 0; i < A.length; i++) {
+    arr[i] = A[i];
+  }
+
+  Arrays.sort(arr, (a, b) -> {
+    int factor_a = getFactors(a);
+    int factor_b = getFactors(b);
+    if (factor_a == factor_b) return a - b;
+    else return factor_a - factor_b;
+  });
+
+  for (int i = 0; i < A.length; i++) {
+    A[i] = arr[i];
+  }
+
+  return A;
 }
 ```
