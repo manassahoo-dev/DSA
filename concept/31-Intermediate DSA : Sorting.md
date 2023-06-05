@@ -122,10 +122,10 @@ If 2 elements have same number of factors, then number with less value should co
 _Examples_
 ```
 Input: [6, 8, 9]
-Output : [9, 6, 8] (The number 9 has 3 factors, 6 has 4 factors and 8 has 4 factors.)
+Output: [9, 6, 8] (The number 9 has 3 factors, 6 has 4 factors and 8 has 4 factors.)
   
-Input  : [2, 4, 7]
-Output : [2, 7, 4] (The number 2 has 2 factors, 7 has 2 factors and 4 has 3 factors.)
+Input: [2, 4, 7]
+Output: [2, 7, 4] (The number 2 has 2 factors, 7 has 2 factors and 4 has 3 factors.)
 ```
 
 **Solution** (Using Custom Sort Comparator)
