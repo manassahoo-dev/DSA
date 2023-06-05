@@ -48,6 +48,7 @@ Input  : [-1, -9, -2, -78, 0]
 Output : 0
 Number of integers greater than 0 is zero.
 ```
+![Image 1](https://github.com/manassahoo-dev/DSA/assets/6974223/7d86dea3-69e0-4d7e-ad12-138239b5501d)
 
 **_Brute Force Solution_**
 
