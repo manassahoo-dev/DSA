@@ -6,10 +6,10 @@ const increasingOrder = numbers.sort((a, b) => a - b);
 const decreasingOrder = numbers.sort((a, b) => b - a);
 ```
 Problems
-1. [Elements Removal](#Elements-Removal)
-2. [Noble integers in an array](#Noble-integers-in-an-array)
-3. [Factors sort](#Factors-sort)
-4. [Largest Number](#Largest-Number)
+1. [Elements Removal](#elements-removal)
+2. [Noble integers in an array](#noble-integers-in-an-array)
+3. [Factors sort](#factors-sort)
+4. [Largest Number](#largest-number)
 
 ## Elements Removal
 
