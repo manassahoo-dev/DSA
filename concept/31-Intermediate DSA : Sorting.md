@@ -13,6 +13,7 @@ Given an integer array **A** of size **N**. You can remove any element from the 
 The cost of this operation is the **sum of all elements** in the array present before this operation.
 
 Find the **minimum cost** to remove all elements from the array.
+![Demo - Page 1](https://github.com/manassahoo-dev/DSA/assets/6974223/7ffbd23c-342d-42c0-b1ba-b2f7c9cec0c4)
 
 _Solution_
 
