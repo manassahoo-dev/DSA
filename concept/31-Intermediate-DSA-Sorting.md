@@ -5,6 +5,7 @@
 3. [Factors sort](#factors-sort)
 4. [Leetcode: 179. Largest Number](#largest-number)
 5. [Leetcode: 75. Sort Colors](#sort-colors)
+6. [Leetcode: 1502. Can Make Arithmetic Progression From Sequence](#arithmetic-progression)
 
 
 To sort arrays in JavaScript, you can use the `sort()` method, which sorts the elements of an array **in place** and returns the sorted array. 
@@ -312,5 +313,44 @@ private void swap(int[] nums, int i, int j) {
     int temp = nums[i];
     nums[i] = nums[j];
     nums[j] = temp;
+}
+```
+## Arithmetic Progression
+
+_Problem Description_
+
+A sequence of numbers is called an arithmetic progression if the difference between any two consecutive elements is the same.
+Given an array of numbers arr, return `true` if the array can be rearranged to form an arithmetic progression. Otherwise, return `false`.
+
+```
+Example 1:
+
+Input: arr = [3,5,1]
+Output: true
+Explanation: We can reorder the elements as [1,3,5] or [5,3,1] with differences 2 and -2 respectively, between each consecutive elements.
+
+Example 2:
+
+Input: arr = [1,2,4]
+Output: false
+Explanation: There is no way to reorder the elements to obtain an arithmetic progression.
+```
+
+_Solution_
+
+```java
+public boolean canMakeArithmeticProgression(int[] arr) {
+    Arrays.sort(arr); // Sort the array in ascending order
+
+    int diff = arr[1] - arr[0]; // Calculate the common difference
+
+    // Check if the remaining elements have the same difference
+    for (int i = 2; i < arr.length; i++) {
+        if (arr[i] - arr[i - 1] != diff) {
+            return false; // If the difference is not the same, it's not an arithmetic progression
+        }
+    }
+
+    return true; // All elements have the same difference, it's an arithmetic progression
 }
 ```
