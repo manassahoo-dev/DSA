@@ -50,3 +50,28 @@ public void toggleCharacters(char[] chars) {
     }
 }
 ```
+
+How many ways can we toggle a charcter?
+
+1. Using the `Character` class methods:
+```java
+if (Character.isLowerCase(ch)) {
+    ch = Character.toUpperCase(ch);
+} else if (Character.isUpperCase(ch)) {
+    ch = Character.toLowerCase(ch);
+}
+```
+2. Using ASCII manipulation:
+```java
+if (ch >= 'A' && ch <= 'Z') {
+    ch = (char) (ch + ('a' - 'A'));
+} else if (ch >= 'a' && ch <= 'z') {
+    ch = (char) (ch - ('a' - 'A'));
+}
+```
+3. Using bitwise operations:
+```
+ch = (char) (ch ^ 32);
+```
+
+
