@@ -4,6 +4,7 @@
 2. [Noble integers in an array](#noble-integers-in-an-array)
 3. [Factors sort](#factors-sort)
 4. [Leetcode: 179. Largest Number](#largest-number)
+5. [Leetcode: 75. Sort Colors](#sort-colors)
 
 
 To sort arrays in JavaScript, you can use the `sort()` method, which sorts the elements of an array **in place** and returns the sorted array. 
@@ -237,5 +238,79 @@ public static String largestNumber(int[] nums) {
   }
 
   return sb.toString();
+}
+```
+
+## Sort Colors
+
+_Problem Description_
+
+Given an array `nums` with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+
+We will use the integers `0`, `1`, and `2` to represent the color red, white, and blue, respectively.
+
+You must solve this problem without using the library's sort function.
+
+```
+Example 1:
+
+Input: nums = [2,0,2,1,1,0]
+Output: [0,0,1,1,2,2]
+
+Example 2:
+
+Input: nums = [2,0,1]
+Output: [0,1,2]
+```
+
+_Approach 1: Counting Sort_
+
+```java
+public void sortColors(int[] nums) {
+    int[] count = new int[3]; // Array to count the occurrences of each color
+
+    // Count the occurrences of each color
+    for (int num : nums) {
+        count[num]++;
+    }
+
+    int index = 0;
+
+    // Overwrite the original array with the sorted colors
+    for (int i = 0; i < count.length; i++) {
+        while (count[i] > 0) {
+            nums[index++] = i;
+            count[i]--;
+        }
+    }
+}
+```
+
+_Approach 2: Dutch National Flag Algorithm_
+
+```java
+public void sortColors(int[] nums) {
+    int low = 0; // Pointer for 0s
+    int mid = 0; // Pointer for 1s
+    int high = nums.length - 1; // Pointer for 2s
+
+    while (mid <= high) {
+        if (nums[mid] == 0) {
+            swap(nums, low, mid);
+            low++;
+            mid++;
+        } else if (nums[mid] == 1) {
+            mid++;
+        } else {
+            swap(nums, mid, high);
+            high--;
+        }
+    }
+}
+
+private void swap(int[] nums, int i, int j) {
+    int temp = nums[i];
+    nums[i] = nums[j];
+    nums[j] = temp;
 }
 ```
