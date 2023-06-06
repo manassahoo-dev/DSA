@@ -1,5 +1,10 @@
 **Given a character array toggle every character.**
 
+```
+Input: char[] chars = {'H', 'e', 'l', 'L', 'o', '!', 'W', 'o', 'r', 'l', 'D'};
+Output: {'h', 'E', 'L', 'l', 'O', '!', 'w', 'O', 'R', 'L', 'd'}
+```
+
 ```java
 public void toggleCharacters(char[] chars) {
     for (int i = 0; i < chars.length; i++) {
