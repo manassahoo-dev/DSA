@@ -1,5 +1,6 @@
 ```
-|  Char  | Lowercase Decimal |  Uppercase Decimal |
+|--------|------------------|--------------------|
+|  Char  | Lowercase Decimal|  Uppercase Decimal |
 |--------|------------------|--------------------|
 |   a    |        97        |        65          |
 |   b    |        98        |        66          |
@@ -27,6 +28,7 @@
 |   x    |        120       |        88          |
 |   y    |        121       |        89          |
 |   z    |        122       |        90          |
+|--------|------------------|--------------------|
 ```
 
 **Given a character array toggle every character.**
