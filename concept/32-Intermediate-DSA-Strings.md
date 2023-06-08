@@ -73,7 +73,7 @@ if (ch >= 'A' && ch <= 'Z') {
 ```
 3. Using bitwise operations:
 
-```
+```java
 ch = (char) (ch ^ 32);
 ```
 ```
