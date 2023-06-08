@@ -73,7 +73,9 @@ if (ch >= 'A' && ch <= 'Z') {
 ```
 3. Using bitwise operations:
 
-`ch = (char) (ch ^ 32);`
+```
+ch = (char) (ch ^ 32);
+```
 ```
          A: 0 1 0 0 0 0 0 1
     ^   32: 0 0 1 0 0 0 0 0
