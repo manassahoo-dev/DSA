@@ -51,7 +51,7 @@ public void toggleCharacters(char[] chars) {
 }
 ```
 
-How many ways can we toggle a charcter?
+**How many ways can we toggle a charcter?**
 
 1. Using the `Character` class methods:
 ```java
