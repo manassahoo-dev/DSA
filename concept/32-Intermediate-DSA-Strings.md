@@ -1,4 +1,4 @@
-Useful Java String methods
+**Useful Java String methods**
 
 | Method | Description |
 | --- | --- |
