@@ -69,7 +69,7 @@ public void toggleCharacters(char[] chars) {
             chars[i] = (char) (chars[i] + ('a' - 'A'));
         } else if (chars[i] >= 'a' && chars[i] <= 'z') {
             // If the character is lowercase, toggle it to uppercase
-            chars[i] = (char) (chars[i] - ('a' - 'A'));
+            chars[i] = (char) (chars[i] + ('A' - 'a'));
         }
         // Ignore non-alphabetic characters
     }
