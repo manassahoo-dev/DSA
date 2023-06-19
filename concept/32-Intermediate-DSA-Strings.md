@@ -1,5 +1,6 @@
 String Problems
 - [912. Sort an Array](#912-Sort-an-Array)
+- [151. Reverse Words in a String](#151-Reverse-Words-in-a-String)
 
 **Useful Java String methods**
 
