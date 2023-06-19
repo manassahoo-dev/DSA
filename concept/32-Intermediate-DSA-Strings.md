@@ -174,31 +174,18 @@ Explanation: You need to reduce multiple spaces between two words to a single sp
 ```java
 class Solution {
     public static String reverseWords(String s) {
-        // Remove leading and trailing spaces
-        s = s.trim();
-        
-        // Split the string into words based on one or more spaces
-        String[] words = s.split("\\s+");
-        
-        
+        // Split the input string into an array of words
+        String[] words = A.trim().split("\\s+");
+
         // Reverse the array of words
-        reverseArray(words);
-        
-        // Join the reversed words with a single space separator
-        return String.join(" ", words);
-    }
-    
-    public static void reverseArray(String[] arr) {
-        int start = 0;
-        int end = arr.length - 1;
-        
-        while (start < end) {
-            String temp = arr[start];
-            arr[start] = arr[end];
-            arr[end] = temp;
-            start++;
-            end--;
+        StringBuilder reversedString = new StringBuilder();
+        for (int i = words.length - 1; i >= 0; i--) {
+            reversedString.append(words[i]);
+            if (i != 0) {
+                reversedString.append(" ");
+            }
         }
-    }
+        return reversedString.toString();
+    }    
 }
 ```    
