@@ -1,3 +1,6 @@
+String Problems
+- [912. Sort an Array](#912-Sort-an-Array)
+
 **Useful Java String methods**
 
 | Method | Description |
