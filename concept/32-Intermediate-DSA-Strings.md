@@ -171,6 +171,7 @@ Output: "example good a"
 Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
 ``` 
 
+Java Solution
 ```java
 class Solution {
     public static String reverseWords(String s) {
@@ -188,4 +189,23 @@ class Solution {
         return reversedString.toString();
     }    
 }
-```    
+```
+
+JavaScript Solution
+```js
+function reverseString(A) {
+  // Split the input string into an array of words
+  const words = A.trim().split(/\s+/);
+
+  // Reverse the array of words
+  const reversedWords = [];
+  for (let i = words.length - 1; i >= 0; i--) {
+    reversedWords.push(words[i]);
+  }
+
+  // Join the reversed array of words with a space separator
+  const reversedString = reversedWords.join(" ");
+
+  return reversedString;
+}
+```
