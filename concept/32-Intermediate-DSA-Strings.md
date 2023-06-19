@@ -2,6 +2,7 @@ String Problems
 - [912. Sort an Array](#912-Sort-an-Array)
 - [151. Reverse Words in a String](#151-Reverse-Words-in-a-String)
 - [5. Longest Palindromic Substring](#5-Longest-Palindromic-Substring)
+- [14. Longest Common Prefix](#14-Longest-Common-Prefix)
 
 **Useful Java String methods**
 
@@ -250,5 +251,43 @@ class Solution {
         }
         return R - L - 1;
     }
+}
+```
+## 14. Longest Common Prefix
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+
+ 
+```
+Example 1:
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+Example 2:
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+```
+Java Solution
+```java
+public String longestCommonPrefix(String[] strs) {
+    if (strs == null || strs.length == 0)
+        return "";
+    
+    Arrays.sort(strs);
+    String first = strs[0];
+    String last = strs[strs.length - 1];
+    int c = 0;
+    while(c < first.length())
+    {
+        if (first.charAt(c) == last.charAt(c))
+            c++;
+        else
+            break;
+    }
+    return c == 0 ? "" : first.substring(0, c);
 }
 ```
