@@ -1,6 +1,7 @@
 String Problems
 - [912. Sort an Array](#912-Sort-an-Array)
 - [151. Reverse Words in a String](#151-Reverse-Words-in-a-String)
+- [5. Longest Palindromic Substring](#5-Longest-Palindromic-Substring)
 
 **Useful Java String methods**
 
@@ -208,4 +209,19 @@ function reverseString(A) {
 
   return reversedString;
 }
+```
+## 5. Longest Palindromic Substring
+Given a string s, return the longest palindromic substring in s.
+
+```
+Example 1:
+
+Input: s = "babad"
+Output: "bab"
+Explanation: "aba" is also a valid answer.
+
+Example 2:
+
+Input: s = "cbbd"
+Output: "bb"
 ```
