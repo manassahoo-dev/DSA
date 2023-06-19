@@ -4,6 +4,7 @@ String Problems
 - [5. Longest Palindromic Substring](#5-Longest-Palindromic-Substring)
 - [14. Longest Common Prefix](#14-Longest-Common-Prefix)
 - [67. Add Binary](#67-Add-Binary)
+- [242. Valid Anagram](#242-Valid-Anagram)
 
 **Useful Java String methods**
 
@@ -328,3 +329,32 @@ Java Solution
     return sb.reverse().toString();
   }
 ```  
+## 242. Valid Anagram
+
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+ 
+```
+Example 1:
+
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+Example 2:
+
+Input: s = "rat", t = "car"
+Output: false
+```
+
+Java Solution
+```
+public boolean isAnagram(String s, String t) {
+    int[] alphabet = new int[26];
+    for (int i = 0; i < s.length(); i++) alphabet[s.charAt(i) - 'a']++;
+    for (int i = 0; i < t.length(); i++) alphabet[t.charAt(i) - 'a']--;
+    for (int i : alphabet) if (i != 0) return false;
+    return true;
+}
+```
