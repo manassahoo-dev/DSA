@@ -112,3 +112,14 @@ myMap.set("bar", "foo");
 myMap.set(1, "foobar");
 const entries = myMap.entries(); // returns an iterable for [["bar", "foo"], [1, "foobar"]]
 ```
+
+**Here is a table comparing the popular `Map` methods in Java and JavaScript:**
+
+| Method | Java | JavaScript |
+| --- | --- | --- |
+| Add or update an entry | `put(key, value)` | `set(key, value)` |
+| Get the value associated with a key | `get(key)` | `get(key)` |
+| Check if a key exists | `containsKey(key)` | `has(key)` |
+| Get an iterable for the keys | `keySet()` | `keys()` |
+| Get an iterable for the values | `values()` | `values()` |
+| Get an iterable for the key-value pairs | `entrySet()` | `entries()` |
