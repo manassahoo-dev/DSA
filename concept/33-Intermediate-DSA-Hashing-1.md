@@ -1,3 +1,6 @@
+1. [387. First Unique Character in a String](#387-First-Unique-Character-in-a-String)
+2. 
+
 **Map in Java**
 
 The `Map` interface in Java provides a collection of key-value pairs, where each key is unique and maps to a corresponding value. Here are some popular methods of the `Map` interface in Java:
@@ -123,3 +126,41 @@ const entries = myMap.entries(); // returns an iterable for [["bar", "foo"], [1,
 | Get an iterable for the keys | `keySet()` | `keys()` |
 | Get an iterable for the values | `values()` | `values()` |
 | Get an iterable for the key-value pairs | `entrySet()` | `entries()` |
+
+## 387. First Unique Character in a String
+
+Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
+
+```
+Example 1:
+
+Input: s = "leetcode"
+Output: 0
+
+Example 2:
+
+Input: s = "loveleetcode"
+Output: 2
+
+Example 3:
+
+Input: s = "aabb"
+Output: -1
+```
+
+```js
+var firstUniqChar = function(s) {
+    const map = new Map();
+    
+    for(const char of s){
+        map.set(char, (map.get(char) || 0 ) + 1);
+    }
+
+    for(let i = 0; i < s.length; i++){
+        if(map.get(s[i]) === 1){
+            return i;
+        }
+    }
+    return -1;
+};
+```
