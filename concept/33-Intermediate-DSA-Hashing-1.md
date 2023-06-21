@@ -1,5 +1,5 @@
 1. [387. First Unique Character in a String](#387-First-Unique-Character-in-a-String)
-2. 
+2. [First Repeating element](#First-Repeating-element)
 
 **Map in Java**
 
@@ -164,3 +164,39 @@ var firstUniqChar = function(s) {
     return -1;
 };
 ```
+## First Repeating element
+
+Given an integer array A of size N, find the first repeating element in it.
+We need to find the element that occurs more than once and whose index of the first occurrence is the smallest.
+If there is no repeating element, return -1.
+
+```
+
+Example 1:
+
+Input A = [10, 5, 3, 4, 3, 5, 6]
+Output: 5
+Explanation: 5 is the first element that repeats
+
+Example 2:
+
+Input A = [6, 10, 5, 4, 9, 120]
+Output: -1
+Explanation : There is no repeating element, output -1
+```
+
+```java
+public int solve(int[] A) {
+        int ans = -1;
+        Set<Integer> set = new HashSet<Integer>();
+        for(int i=A.length-1; i >= 0; i--){
+            if(set.contains(A[i])){
+                ans = A[i];
+            } else {
+                set.add(A[i]);
+            }
+        }
+        return ans;
+}
+```
+
