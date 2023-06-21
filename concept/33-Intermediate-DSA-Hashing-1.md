@@ -171,7 +171,6 @@ We need to find the element that occurs more than once and whose index of the fi
 If there is no repeating element, return -1.
 
 ```
-
 Example 1:
 
 Input A = [10, 5, 3, 4, 3, 5, 6]
@@ -187,16 +186,16 @@ Explanation : There is no repeating element, output -1
 
 ```java
 public int solve(int[] A) {
-        int ans = -1;
-        Set<Integer> set = new HashSet<Integer>();
-        for(int i=A.length-1; i >= 0; i--){
-            if(set.contains(A[i])){
-                ans = A[i];
-            } else {
-                set.add(A[i]);
-            }
+    int ans = -1;
+    Set<Integer> set = new HashSet<Integer>();
+    for(int i=A.length-1; i >= 0; i--){
+        if(set.contains(A[i])){
+            ans = A[i];
+        } else {
+            set.add(A[i]);
         }
-        return ans;
+    }
+    return ans;
 }
 ```
 
