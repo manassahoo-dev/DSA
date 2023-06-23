@@ -8,7 +8,7 @@ Here are some JavaScript problems to test your understanding of callback functio
 
 4. Write a function `findMax` that takes an array of numbers and returns the largest number in the array. Use a callback function to perform the comparison.
 
-Here's an example solution to problem 1:
+Example solution to problem 1:
 
 ```javascript
 function multiplyByTwo(arr, callback) {
