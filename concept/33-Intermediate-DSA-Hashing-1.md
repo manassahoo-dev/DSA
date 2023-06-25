@@ -257,26 +257,32 @@ Explanation : The subarray with zero sum is [-1, 2, -1].
 ![Screenshot from 2023-06-25 23-00-43](https://github.com/manassahoo-dev/DSA/assets/6974223/2b90f236-bc93-4941-ae23-f41e7cd6276a)
 
 ```java
-public int solve(int[] A) {
-    int n = A.length;
-    HashMap<Long, Integer> map = new HashMap<>();
-    long sum = 0;
-    int count = 0;
+import java.util.HashMap;
 
-    for (int i = 0; i < n; i++) {
-        sum += A[i];
-
-        if (sum == 0) {
-            count++;
+public class Solution {
+    public int countZeroSumSubarrays(int[] A) {
+        int n = A.length;
+        long count = 0; // Use long to handle large results
+        long sum = 0; // Running sum of the elements
+        HashMap<Long, Integer> map = new HashMap<>(); // Store prefix sum frequencies
+        
+        for (int i = 0; i < n; i++) {
+            sum += A[i]; // Add the current element to the sum
+            
+            if (sum == 0) {
+                count++; // If the sum is zero, increment count
+            }
+            
+            if (map.containsKey(sum)) {
+                count += map.get(sum); // Add the frequency of the prefix sum to count
+                map.put(sum, map.get(sum) + 1); // Increment the frequency
+            } else {
+                map.put(sum, 1); // Initialize the frequency
+            }
         }
-
-        if (map.containsKey(sum)) {
-            count += map.get(sum);
-        }
-
-        map.put(sum, map.getOrDefault(sum, 0) + 1);
+        
+        int MOD = 1000000007; // Modulo value
+        return (int) (count % MOD); // Return the count modulo MOD
     }
-
-    return count % 1000000007;
 }
 ```    
