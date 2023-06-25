@@ -1,5 +1,6 @@
 1. [387. First Unique Character in a String](#387-First-Unique-Character-in-a-String)
 2. [First Repeating element](#First-Repeating-element)
+3. [Sub Array with zero sum](#Sub-Array-with-zero-sum)
 
 **Map in Java**
 
@@ -198,4 +199,39 @@ public int solve(int[] A) {
     return ans;
 }
 ```
+## Sub Array with zero sum
 
+Given an array of integers A, find and return whether the given array contains a non-empty subarray with a sum equal to 0.
+If the given array contains a sub-array with sum zero return 1, else return 0.
+
+```
+Example 1:
+
+Input A = [1, 2, 3, 4, 5]
+Output: 0
+Explanation:  No subarray has sum 0.
+
+Example 2:
+
+Input A = [4, -1, 1]
+Output: 1
+Explanation :  The subarray [-1, 1] has sum 0.
+```
+![Screenshot from 2023-06-25 22-41-55](https://github.com/manassahoo-dev/DSA/assets/6974223/25a57a99-f273-4efe-b042-e74f5ac1e651)
+
+```java
+public int solve(int[] A) {
+    Set<Long> set = new HashSet<Long>();
+    long sum = 0;
+    set.add(sum);
+    for(int a: A){
+        sum += a;
+        if(set.contains(sum)){
+            return 1;
+        } else {
+            set.add(sum);
+        }
+    }
+    return 0;
+}
+```    
