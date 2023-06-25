@@ -314,6 +314,18 @@ Output: [2, 10]
 Explanation : Elements (2, 10) appears in both the array.
 ```
 
+Approach
+
+- Create a HashMap to store the frequency of elements in array A.
+- Iterate through array A and count the frequency of each element in the HashMap.
+- Create an ArrayList to store the common elements.
+- Iterate through array B.
+- Check if the current element exists in the HashMap and has a frequency greater than 0.
+    - If it does, add the element to the ArrayList of common elements.
+    - Decrement the frequency of the element in the HashMap to account for its occurrence.
+- Convert the ArrayList of common elements to an array.
+- Return the array containing the common elements.
+
 ```java
 import java.util.ArrayList;
 import java.util.HashMap;
