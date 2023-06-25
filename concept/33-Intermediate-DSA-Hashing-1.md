@@ -2,6 +2,7 @@
 2. [First Repeating element](#First-Repeating-element)
 3. [Sub Array with zero sum](#Sub-Array-with-zero-sum)
 4. [Count Subarray Zero Sum](#Count-Subarray-Zero-Sum)
+5. [Common Elements](#Common-Elements)
 
 **Map in Java**
 
@@ -286,3 +287,65 @@ public class Solution {
     }
 }
 ```    
+## Common Elements
+
+Given two integer arrays, A and B of size N and M, respectively. Your task is to find all the **common elements** in both the array.
+
+**NOTE:**
+
+- Each element in the result should appear as many times as it appears in both arrays.
+- The result can be in any order.
+
+```
+Example 1:
+
+Input  
+A = [1, 2, 2, 1]
+B = [2, 3, 1, 2]
+Output: [1, 2, 2]
+Explanation: Elements (1, 2, 2) appears in both the array. Note 2 appears twice in both the array.
+
+Example 2:
+
+Input 
+A = [2, 1, 4, 10]
+B = [3, 6, 2, 10, 10]
+Output: [2, 10]
+Explanation : Elements (2, 10) appears in both the array.
+```
+
+```java
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class Solution {
+    public int[] findCommonElements(int[] A, int[] B) {
+        HashMap<Integer, Integer> mapA = new HashMap<>(); // Store frequency of elements in array A
+        
+        // Count the frequency of elements in array A
+        for (int num : A) {
+            mapA.put(num, mapA.getOrDefault(num, 0) + 1);
+        }
+        
+        List<Integer> commonElements = new ArrayList<>(); // Store common elements
+        
+        // Check each element in array B
+        for (int num : B) {
+            if (mapA.containsKey(num) && mapA.get(num) > 0) {
+                commonElements.add(num); // Add the common element to the list
+                mapA.put(num, mapA.get(num) - 1); // Decrement the frequency in array A
+            }
+        }
+        
+        int[] result = new int[commonElements.size()]; // Convert list to array
+        
+        // Copy elements from list to array
+        for (int i = 0; i < commonElements.size(); i++) {
+            result[i] = commonElements.get(i);
+        }
+        
+        return result;
+    }
+}
+```
