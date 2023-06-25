@@ -1,6 +1,7 @@
 1. [387. First Unique Character in a String](#387-First-Unique-Character-in-a-String)
 2. [First Repeating element](#First-Repeating-element)
 3. [Sub Array with zero sum](#Sub-Array-with-zero-sum)
+4. [Count Subarray Zero Sum](#Count-Subarray-Zero-Sum)
 
 **Map in Java**
 
@@ -233,5 +234,49 @@ public int solve(int[] A) {
         }
     }
     return 0;
+}
+```    
+## Count Subarray Zero Sum
+
+Given an array A of N integers.
+Find the count of the subarrays in the array which sums to zero. Since the answer can be very large, return the remainder on dividing the result with 10^9+7
+
+```
+Example 1:
+
+Input A = [1, -1, -2, 2]
+Output: 3
+Explanation: The subarrays with zero sum are [1, -1], [-2, 2] and [1, -1, -2, 2].
+
+Example 2:
+
+Input A = [-1, 2, -1]
+Output: 1
+Explanation : The subarray with zero sum is [-1, 2, -1].
+```
+![Screenshot from 2023-06-25 23-00-43](https://github.com/manassahoo-dev/DSA/assets/6974223/2b90f236-bc93-4941-ae23-f41e7cd6276a)
+
+```java
+public int solve(int[] A) {
+    int n = A.length;
+    HashMap<Long, Integer> map = new HashMap<>();
+    long sum = 0;
+    int count = 0;
+
+    for (int i = 0; i < n; i++) {
+        sum += A[i];
+
+        if (sum == 0) {
+            count++;
+        }
+
+        if (map.containsKey(sum)) {
+            count += map.get(sum);
+        }
+
+        map.put(sum, map.getOrDefault(sum, 0) + 1);
+    }
+
+    return count % 1000000007;
 }
 ```    
