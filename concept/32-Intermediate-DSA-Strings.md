@@ -230,28 +230,38 @@ Output: "bb"
 ```
 Java Solution
 ```java
-class Solution {
+public class Solution {
     public String longestPalindrome(String s) {
-        if (s == null || s.length() < 1) return "";
-        int start = 0, end = 0;
+        if (s == null || s.length() < 1) {
+            return "";
+        }
+
+        int start = 0; // Start index of the longest palindromic substring
+        int end = 0; // End index of the longest palindromic substring
+
         for (int i = 0; i < s.length(); i++) {
-            int len1 = expandAroundCenter(s, i, i);
-            int len2 = expandAroundCenter(s, i, i + 1);
-            int len = Math.max(len1, len2);
+            int len1 = expandAroundCenter(s, i, i); // Check for odd-length palindromes
+            int len2 = expandAroundCenter(s, i, i + 1); // Check for even-length palindromes
+            int len = Math.max(len1, len2); // Length of the longest palindrome around the current center
+
             if (len > end - start) {
+                // Update the start and end indices of the longest palindromic substring
                 start = i - (len - 1) / 2;
                 end = i + len / 2;
             }
         }
-        return s.substring(start, end + 1);
+
+        return s.substring(start, end + 1); // Return the longest palindromic substring
     }
 
-    private int expandAroundCenter(String s, int L, int R) {
-        while (L >= 0 && R < s.length() && s.charAt(L) == s.charAt(R)) {
-            L--;
-            R++;
+    // Helper function to expand around the center and find the length of the palindrome
+    private int expandAroundCenter(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
         }
-        return R - L - 1;
+
+        return right - left - 1; // Return the length of the palindrome
     }
 }
 ```
