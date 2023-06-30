@@ -1,4 +1,4 @@
-1. [Longest Subarray Zero Sum}(#Longest-Subarray-Zero-Sum)
+1. [Longest Subarray Zero Sum](#Longest-Subarray-Zero-Sum)
 
 
 ## Longest Subarray Zero Sum
