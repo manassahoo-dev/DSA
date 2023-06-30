@@ -12,16 +12,6 @@ Given an array A of N integers. Find the length of the **longest subarray in the
 Given an Array of integers B, and a target sum A.
 Check if there exists a pair `(i,j)` such that `Bi + Bj = A and i!=j`.
 
-
-```
-Input Format
-First argument A is the Target sum, and second argument is the array B
-```
-```
-Output Format
-Return an integer value 1 if there exists such pair, else return 0.
-```
-
 ```
 Input 1:
 
