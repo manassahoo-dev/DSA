@@ -6,3 +6,4 @@
 
 
 - [greatfrontend](https://www.greatfrontend.com/)
+- [bigfrontend.dev](https://bigfrontend.dev)
