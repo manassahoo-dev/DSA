@@ -7,3 +7,7 @@
 
 - [greatfrontend](https://www.greatfrontend.com/)
 - [bigfrontend.dev](https://bigfrontend.dev)
+
+**Best Open-source projects built with Node.js / React.js**
+
+- [IDURAR ERP/CRM](https://github.com/idurar/idurar-erp-crm)
