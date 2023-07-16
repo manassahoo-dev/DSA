@@ -11,3 +11,4 @@
 **Best Open-source projects built with Node.js / React.js**
 
 - [IDURAR ERP/CRM](https://github.com/idurar/idurar-erp-crm)
+- [cal.com](https://github.com/calcom/cal.com)
