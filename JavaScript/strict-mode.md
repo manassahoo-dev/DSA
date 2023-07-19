@@ -113,3 +113,100 @@ delete obj.readOnly; // Throws TypeError: Cannot delete property 'readOnly' of #
 ```
 
 Strict mode helps developers catch common mistakes, encourages better coding practices, and prepares code for future JavaScript versions. It is recommended to use strict mode in all modern JavaScript projects to enhance code quality and maintainability.
+
+
+Certainly! Below are some JavaScript quizzes focused on the use of `"use strict"` in markdown format. Test your knowledge of strict mode in JavaScript:
+
+JavaScript Strict Mode Quiz
+---------------------------
+
+1.  What is the purpose of using `"use strict"` in JavaScript?
+    
+    a) It enforces more strict syntax rules for JavaScript code.
+    
+    b) It enables new ES6 features in older JavaScript engines.
+    
+    c) It makes the code run faster by optimizing it.
+    
+    d) It allows JavaScript to run in a restricted environment.
+    
+2.  How do you enable strict mode in a JavaScript file?
+    
+    a) `strict mode;`
+    
+    b) `"use strict";`
+    
+    c) `use strict;`
+    
+    d) `strict: true;`
+    
+3.  When using strict mode, which of the following statements is true?
+    
+    a) Variables must be declared with `var` keyword.
+    
+    b) Automatic type coercion is more lenient.
+    
+    c) Functions can be declared with duplicate names.
+    
+    d) Global variables are accessible from nested functions.
+    
+4.  What happens when a non-strict code file is combined with a strict code file?
+    
+    a) Both files run in strict mode.
+    
+    b) Both files run in non-strict mode.
+    
+    c) An error occurs, and the code doesn't run.
+    
+    d) The strict mode applies only to the strict code file.
+    
+5.  In strict mode, what will happen if you attempt to delete a variable declared with `var`?
+    
+    a) It will throw an error.
+    
+    b) The variable will be deleted successfully.
+    
+    c) The behavior is the same as in non-strict mode.
+    
+    d) It will prompt the user for confirmation.
+    
+6.  In strict mode, what will happen if you use `eval` to evaluate a string containing a variable declaration?
+    
+    a) The variable will be created in the global scope.
+    
+    b) The variable will be created in the local scope.
+    
+    c) It will throw an error.
+    
+    d) The `eval` function is not affected by strict mode.
+    
+7.  Which of the following is NOT a benefit of using strict mode?
+    
+    a) Improved security by eliminating certain JavaScript vulnerabilities.
+    
+    b) Better performance due to optimized code execution.
+    
+    c) Prevention of accidental global variable creation.
+    
+    d) More meaningful error messages in the console.
+    
+
+Quiz Answers
+------------
+
+1.  Answer: a) It enforces more strict syntax rules for JavaScript code.
+    
+2.  Answer: b) `"use strict";`
+    
+3.  Answer: a) Variables must be declared with `var` keyword.
+    
+4.  Answer: d) The strict mode applies only to the strict code file.
+    
+5.  Answer: a) It will throw an error.
+    
+6.  Answer: c) It will throw an error.
+    
+7.  Answer: b) Better performance due to optimized code execution.
+    
+
+Feel free to test your knowledge and check the answers afterward. Remember that using `"use strict"` in your JavaScript code is generally considered a good practice as it helps catch common programming mistakes and enables a safer and more optimized code execution.
