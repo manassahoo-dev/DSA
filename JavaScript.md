@@ -35,8 +35,8 @@ For example, consider the following code:
 
 
 
-- https://github.com/trekhleb/javascript-algorithms
-- https://github.com/getify/You-Dont-Know-JS
-- https://github.com/airbnb/javascript
-- https://github.com/30-seconds/30-seconds-of-code
-- https://github.com/ryanmcdermott/clean-code-javascript
+- [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+- [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+- [airbnb-javascript](https://github.com/airbnb/javascript)
+- [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
+- [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
