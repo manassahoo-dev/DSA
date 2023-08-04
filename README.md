@@ -12,7 +12,7 @@
 - [geeksforgeeks.org](https://geeksforgeeks.org)
 
 ## JavaScript References
-
+javascript.info
 
 - [MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference) - Simply the most extensive and up to date language reference.
 - [DevDocs](http://devdocs.io/javascript) - Search MDN comfortably. Even offline.
