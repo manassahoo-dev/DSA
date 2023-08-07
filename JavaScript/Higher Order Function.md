@@ -1,3 +1,5 @@
+## Higher Order Function
+
 - In JavaScript, a higher-order function is a function that either takes one or more functions as arguments or returns a function as its result.
 - This concept is derived from functional programming and is a powerful feature that allows you to write more modular and reusable code.
 
