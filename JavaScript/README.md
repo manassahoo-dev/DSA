@@ -14,5 +14,5 @@
 - [cal.com](https://github.com/calcom/cal.com)
 
 
-Temporal Dead Zone (TDZ)
-Redux Toolkit
+- Temporal Dead Zone (TDZ)
+- Redux Toolkit
