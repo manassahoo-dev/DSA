@@ -16,3 +16,25 @@
 
 - Temporal Dead Zone (TDZ)
 - Redux Toolkit
+
+
+**Flatten an array**
+
+```js
+function flatten(array) {
+    const flattened = [];
+    
+    for (const item of array) {
+        if (Array.isArray(item)) {
+            flattened.push(...flatten(item)); // Recursively flatten nested arrays
+        } else {
+            flattened.push(item);
+        }
+    }
+    
+    return flattened;
+}
+
+let array = [1, 2, 3, [4, 5], [6, 7, 8, [9, 10, 11]]];
+console.log(flatten(array)); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+```
