@@ -41,7 +41,7 @@ console.log(flatten(array)); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
 
 
-Here's a list of important topics to revise before your interview:
+List of important JavaScript topics to revise before your interview:
 
 1. **Advanced JavaScript Concepts:**
    - Closures and Scope
