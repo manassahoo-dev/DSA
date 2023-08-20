@@ -4,7 +4,6 @@
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 - [awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning)
 
-
 - [greatfrontend](https://www.greatfrontend.com/)
 - [bigfrontend.dev](https://bigfrontend.dev)
 
