@@ -12,7 +12,6 @@
 - [IDURAR ERP/CRM](https://github.com/idurar/idurar-erp-crm)
 - [cal.com](https://github.com/calcom/cal.com)
 
-
 - Temporal Dead Zone (TDZ)
 - Redux Toolkit
 
