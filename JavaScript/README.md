@@ -141,3 +141,91 @@ List of important JavaScript topics to revise before your interview:
 
 20. **Project Experience:**
     - Be prepared to discuss your past projects, challenges faced, and how you overcame them using JavaScript.
+   
+
+console.clear();
+// Q1
+function Q1() {
+  console.log(1);
+  new Promise((res, rej) => {
+    console.log(2);
+    rej();
+    console.log(4);
+  })
+    .then(() => {
+      console.log(5);
+    })
+    .catch((error) => {
+      console.log(6);
+      // commenting the finally block      
+    })
+    .then(() => {
+      console.log(7);
+    }).then(() => {
+      console.log(9);
+    }).then(() => {
+      console.log(10);
+    });
+  console.log(8);
+}
+// Q1(); // 1 8 2 6 7 
+
+// Q2
+let j = 0;
+for (var i = 0; i < 2; i++) {
+	var self = this;
+  setTimeout((i) => {
+    // console.log(i);
+  }, 1000);
+}
+// 2 2
+
+// Q3
+function Q3() {
+  const a = { a: "a" };
+  const b = { b: "b" };
+  const c = {};
+
+  c[a] = 1; 
+  c[b] = 2;
+  
+
+  // console.log(c[a]); {"{ a: "a" }": 1}
+}
+
+// Q4
+// console.log(true.toString()); "True" / "true"
+// console.log(10.toString()); "10"
+
+// const f1 = ( a, ...rest) => console.log(a, rest, b)
+// f1(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+// Q5
+const obj = {
+  firstName: "Tom",
+  getName: function () {
+    return this.firstName;
+  }
+};
+
+/* call/ apply/ bind */
+/* obj.getName() */
+//obj.getName.call(obj)
+
+const getName = obj.getName;
+//getName.call(obj)
+// console.log(getName());
+
+// Q6
+const res1 = [1, 2, 3].reduce((a, b) => a + b, 1);  // 7
+const res2 = [1, 2, 3].reduce((a, b) => a + b);	// 6
+
+// Q7
+function sum(a, b) {
+  return a + b;
+}
+
+const func1 = (func) => (a) => (b) =>  func(a)(b)
+
+let doSum = func1(sum);
+// console.log(doSum(1)(2)); // 3
