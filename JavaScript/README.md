@@ -142,7 +142,7 @@ List of important JavaScript topics to revise before your interview:
 20. **Project Experience:**
     - Be prepared to discuss your past projects, challenges faced, and how you overcame them using JavaScript.
    
-
+```js
 console.clear();
 // Q1
 function Q1() {
@@ -229,3 +229,4 @@ const func1 = (func) => (a) => (b) =>  func(a)(b)
 
 let doSum = func1(sum);
 // console.log(doSum(1)(2)); // 3
+```
