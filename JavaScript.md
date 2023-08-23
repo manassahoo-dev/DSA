@@ -33,8 +33,6 @@ For example, consider the following code:
 - Implement dynamic currying
 - Implement Singleton design pattern
 
-
-
 - [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 - [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 - [airbnb-javascript](https://github.com/airbnb/javascript)
