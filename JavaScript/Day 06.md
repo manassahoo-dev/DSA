@@ -24,6 +24,42 @@ const obj = {
 };
 
 console.log(flattenObject(obj));
+
+const obj = {
+    newObj: {
+        obj2: {
+            obj5: {
+                one: 1,
+            },
+        },
+    },
+    obj3: {
+        obj4: {
+            two: 2
+        },
+    },
+};
+function flattenObject(ob) {
+    const result = {}
+
+    const flatten = (object,parent) => {
+        for (let key in object) {
+            const value = object[key];
+            const updatedKey = parent ? `${parent}.${key}` : key;
+            if (typeof value === 'object') {
+                flatten(value, updatedKey);
+            } else {
+                result[updatedKey] = value;
+            }
+        }
+        return result;
+    }
+
+    flatten(ob, '');
+    return result;
+}
+console.log(flattenObject(obj));
+
 // Output:
 // {
 //   'a.b.c': 1,
