@@ -231,4 +231,3 @@ const func1 = (func) => (a) => (b) =>  func(a)(b)
 let doSum = func1(sum);
 // console.log(doSum(1)(2)); // 3
 ```
-More examples
