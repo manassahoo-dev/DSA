@@ -17,6 +17,17 @@
 - Redux Toolkit
 
 
+Promises, async/await
+Introduction: callbacks
+Promise
+Promises chaining
+Error handling with promises
+Promise API
+Promisification
+Microtasks
+Async/await
+
+
 **Flatten an array**
 
 ```js
