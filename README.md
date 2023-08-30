@@ -25,7 +25,6 @@ https://wesbos.com/courses
 
 https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
 
-
 ## Job boards
 <table>
 <thead>
