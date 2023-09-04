@@ -2,8 +2,8 @@
 1. [https://eloquentjavascript.net](https://t.co/Ywsp8tAqyy?amp=1)
 2. [http://jsforcats.com](https://t.co/lepGOL1AUe?amp=1)
 3. [javascript.info](http://javascript.info) 
-4. https://learnjavascript.online/ 
-5. https://www.learn-js.org/ 
+4. [learnjavascript.online](https://learnjavascript.online)
+5. [learn-js.org](https://www.learn-js.org)
 6. [https://devdocs.io/javascript/](https://t.co/J8NrkxXZ90?amp=1) 
 7. [https://egghead.io/q/javascript](https://t.co/CoI2laB73Z?amp=1) 
 8. [https://freecodecamp.org](https://t.co/1bvyYKHs9h?amp=1) 
