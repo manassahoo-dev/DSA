@@ -7,7 +7,8 @@
 6. [https://devdocs.io/javascript/](https://t.co/J8NrkxXZ90?amp=1) 
 7. [https://egghead.io/q/javascript](https://t.co/CoI2laB73Z?amp=1) 
 8. [https://freecodecamp.org](https://t.co/1bvyYKHs9h?amp=1) 
-9. https://www.codecademy.com/learn/introduction-to-javascript
+9. [](https://www.codecademy.com/learn/introduction-to-javascript)
+10. [learnersbucket.com](https://learnersbucket.com)
 
 
 - [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
