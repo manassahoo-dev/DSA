@@ -28,7 +28,8 @@
 
 - Temporal Dead Zone (TDZ)
 - Redux Toolkit
-
+- Event Bubbling
+- Event Capturing
 
 Promises, async/await
 Introduction: callbacks
