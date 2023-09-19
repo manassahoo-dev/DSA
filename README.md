@@ -12,7 +12,6 @@
 - [geeksforgeeks.org](https://geeksforgeeks.org)
 
 ## JavaScript References
-- javascript.info
 - https://wesbos.com/courses
 
 - [MDN](https://developer.mozilla.org/docs/Web/JavaScript/Reference) - Simply the most extensive and up to date language reference.
