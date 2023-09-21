@@ -7,9 +7,9 @@
 + JSX syntax
 + Performance optimization
 
-Use React.memo or useMemo: React.memo is a higher-order component that can help optimize functional components by caching their props and preventing unnecessary re-renders. useMemo is a hook that can be used to memoize expensive computations and prevent unnecessary re-calculations.
+- Use React.memo or useMemo: React.memo is a higher-order component that can help optimize functional components by caching their props and preventing unnecessary re-renders. useMemo is a hook that can be used to memoize expensive computations and prevent unnecessary re-calculations.
 
-Use React.PureComponent or shouldComponentUpdate: If you are using class components in React, you can use React.PureComponent, which automatically performs a shallow comparison of the component's props and state to determine if a re-render is necessary. Alternatively, you can use the shouldComponentUpdate lifecycle method to manually determine if a re-render is necessary based on the component's props and state.
+- Use React.PureComponent or shouldComponentUpdate: If you are using class components in React, you can use React.PureComponent, which automatically performs a shallow comparison of the component's props and state to determine if a re-render is necessary. Alternatively, you can use the shouldComponentUpdate lifecycle method to manually determine if a re-render is necessary based on the component's props and state.
 
 Avoid unnecessary re-renders: You can optimize your React components by avoiding unnecessary re-renders. For example, you can use the useCallback hook to memoize event handlers and avoid creating new functions on every render.
 
