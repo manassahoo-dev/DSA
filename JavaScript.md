@@ -12,6 +12,7 @@ For example, consider the following code:
     var myVar = 5;
     ```
   </li>
+
   <li>How does hoisting work in JavaScript?</li>
   <li>What is the difference between function hoisting and variable hoisting?</li>
   <li>What is the order of execution in JavaScript?</li>
