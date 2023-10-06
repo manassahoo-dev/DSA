@@ -26,6 +26,8 @@
 - [IDURAR ERP/CRM](https://github.com/idurar/idurar-erp-crm)
 - [cal.com](https://github.com/calcom/cal.com)
 
+
+Concepts
 - Temporal Dead Zone (TDZ)
 - Redux Toolkit
 - Event Bubbling
